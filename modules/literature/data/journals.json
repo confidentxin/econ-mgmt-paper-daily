@@ -1,0 +1,5949 @@
+{
+ "$comment": "经管文献站收录的英文期刊（由 journal-scope/build_journal_scope.py 的结果 journals.json 转换）。lists：UTD24、FT50、ABS（3/4 星，检索式未区分）。issns 用于 Crossref 按 ISSN 取新登记的论文；crossref 表示由 Crossref 采集器读取。中文期刊（FMS）不在其中，另行采集。",
+ "journals": [
+  {
+   "sourceId": "journal-academy-of-management-journal",
+   "name": "Academy of Management Journal",
+   "issns": [
+    "0001-4273",
+    "1948-0989"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-academy-of-management-review",
+   "name": "Academy of Management Review",
+   "issns": [
+    "0363-7425",
+    "1930-3807"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-administrative-science-quarterly",
+   "name": "Administrative Science Quarterly",
+   "issns": [
+    "0001-8392",
+    "1930-3815"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-information-systems-research",
+   "name": "Information Systems Research",
+   "issns": [
+    "1047-7047",
+    "1526-5536"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-accounting-research",
+   "name": "Journal of Accounting Research",
+   "issns": [
+    "0021-8456",
+    "1475-679X"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-accounting-and-economics",
+   "name": "Journal of Accounting and Economics",
+   "issns": [
+    "0165-4101",
+    "1879-1980"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S62142384"
+  },
+  {
+   "sourceId": "journal-journal-of-consumer-research",
+   "name": "Journal of Consumer Research",
+   "issns": [
+    "0093-5301",
+    "1537-5277"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-economics",
+   "name": "Journal of Financial Economics",
+   "issns": [
+    "0304-405X"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-international-business-studies",
+   "name": "Journal of International Business Studies",
+   "issns": [
+    "0047-2506",
+    "1478-6990",
+    "0047-8210"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-management-information-systems",
+   "name": "Journal of Management Information Systems",
+   "issns": [
+    "0742-1222",
+    "1557-928X"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-management-studies",
+   "name": "Journal of Management Studies",
+   "issns": [
+    "0022-2380",
+    "1467-6486"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-marketing",
+   "name": "Journal of Marketing",
+   "issns": [
+    "0022-2429",
+    "1547-7185"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-marketing-research",
+   "name": "Journal of Marketing Research",
+   "issns": [
+    "0022-2437",
+    "1547-7193"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-operations-management",
+   "name": "Journal of Operations Management",
+   "issns": [
+    "0272-6963",
+    "1873-1317"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-mis-quarterly",
+   "name": "MIS Quarterly",
+   "issns": [
+    "0276-7783",
+    "2162-9730"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-management-science",
+   "name": "Management Science",
+   "issns": [
+    "0025-1909",
+    "1526-5501"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-marketing-science",
+   "name": "Marketing Science",
+   "issns": [
+    "0732-2399",
+    "1526-548X"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-operations-research",
+   "name": "Operations Research",
+   "issns": [
+    "0030-364X",
+    "1526-5463"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-organization-science",
+   "name": "Organization Science",
+   "issns": [
+    "1047-7039",
+    "1526-5455"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-production-and-operations-management",
+   "name": "Production and Operations Management",
+   "issns": [
+    "1059-1478",
+    "1937-5956"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-review-of-financial-studies",
+   "name": "Review of Financial Studies",
+   "issns": [
+    "0893-9454",
+    "1465-7368"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-strategic-management-journal",
+   "name": "Strategic Management Journal",
+   "issns": [
+    "0143-2095",
+    "1097-0266"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-accounting-review",
+   "name": "The Accounting Review",
+   "issns": [
+    "0001-4826",
+    "1558-7967"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-finance",
+   "name": "The Journal of Finance",
+   "issns": [
+    "0022-1082",
+    "1540-6261"
+   ],
+   "lists": [
+    "UTD24",
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-accounting-organizations-and-society",
+   "name": "Accounting Organizations and Society",
+   "issns": [
+    "0361-3682",
+    "1873-6289"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S198892436"
+  },
+  {
+   "sourceId": "journal-american-economic-review",
+   "name": "American Economic Review",
+   "issns": [
+    "0002-8282",
+    "1944-7981"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-contemporary-accounting-research",
+   "name": "Contemporary Accounting Research",
+   "issns": [
+    "0823-9150",
+    "1911-3846"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-econometrica",
+   "name": "Econometrica",
+   "issns": [
+    "0012-9682",
+    "1468-0262"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-entrepreneurship-theory-and-practice",
+   "name": "Entrepreneurship Theory and Practice",
+   "issns": [
+    "1042-2587",
+    "1540-6520"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-harvard-business-review",
+   "name": "Harvard business review",
+   "issns": [
+    "0017-8012"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S41416626"
+  },
+  {
+   "sourceId": "journal-human-relations",
+   "name": "Human Relations",
+   "issns": [
+    "0018-7267",
+    "1741-282X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-human-resource-management",
+   "name": "Human Resource Management",
+   "issns": [
+    "0090-4848",
+    "1099-050X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-applied-psychology",
+   "name": "Journal of Applied Psychology",
+   "issns": [
+    "0021-9010",
+    "1939-1854"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-ethics",
+   "name": "Journal of Business Ethics",
+   "issns": [
+    "0167-4544",
+    "1573-0697"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-venturing",
+   "name": "Journal of Business Venturing",
+   "issns": [
+    "0883-9026",
+    "1873-2003"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S66201313"
+  },
+  {
+   "sourceId": "journal-journal-of-consumer-psychology",
+   "name": "Journal of Consumer Psychology",
+   "issns": [
+    "1057-7408",
+    "1532-7663"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-and-quantitative-analysis",
+   "name": "Journal of Financial and Quantitative Analysis",
+   "issns": [
+    "0022-1090",
+    "1756-6916"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-management",
+   "name": "Journal of Management",
+   "issns": [
+    "0149-2063",
+    "1557-1211"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-political-economy",
+   "name": "Journal of Political Economy",
+   "issns": [
+    "0022-3808",
+    "1537-534X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-academy-of-marketing-science",
+   "name": "Journal of the Academy of Marketing Science",
+   "issns": [
+    "0092-0703",
+    "1552-7824"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-organization-studies",
+   "name": "Organization Studies",
+   "issns": [
+    "0170-8406",
+    "1741-3044"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-organizational-behavior-and-human-decision-proce",
+   "name": "Organizational Behavior and Human Decision Processes",
+   "issns": [
+    "0749-5978",
+    "1095-9920"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-research-policy",
+   "name": "Research Policy",
+   "issns": [
+    "0048-7333",
+    "1873-7625"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S9731383"
+  },
+  {
+   "sourceId": "journal-review-of-accounting-studies",
+   "name": "Review of Accounting Studies",
+   "issns": [
+    "1380-6653",
+    "1573-7136"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-review-of-finance",
+   "name": "Review of Finance",
+   "issns": [
+    "1572-3097",
+    "1573-692X",
+    "1875-824X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-strategic-entrepreneurship-journal",
+   "name": "Strategic Entrepreneurship Journal",
+   "issns": [
+    "1932-4391",
+    "1932-443X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-quarterly-journal-of-economics",
+   "name": "The Quarterly Journal of Economics",
+   "issns": [
+    "0033-5533",
+    "1531-4650"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-review-of-economic-studies",
+   "name": "The Review of Economic Studies",
+   "issns": [
+    "0034-6527",
+    "1467-937X"
+   ],
+   "lists": [
+    "FT50",
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-acm-transactions-on-modeling-and-computer-simula",
+   "name": "ACM Transactions on Modeling and Computer Simulation",
+   "issns": [
+    "1049-3301",
+    "1558-1195"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-abacus",
+   "name": "Abacus",
+   "issns": [
+    "0001-3072",
+    "1467-6281"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-academy-of-management-annals",
+   "name": "Academy of Management Annals",
+   "issns": [
+    "1941-6520",
+    "1941-6067"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-academy-of-management-discoveries",
+   "name": "Academy of Management Discoveries",
+   "issns": [
+    "2168-1007"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-academy-of-management-learning-and-education",
+   "name": "Academy of Management Learning and Education",
+   "issns": [
+    "1537-260X",
+    "1944-9585"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-academy-of-management-perspectives",
+   "name": "Academy of Management Perspectives",
+   "issns": [
+    "1558-9080",
+    "1943-4529",
+    "1079-5545"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-accident-analysis-and-prevention",
+   "name": "Accident Analysis & Prevention",
+   "issns": [
+    "0001-4575",
+    "1879-2057"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S188336720"
+  },
+  {
+   "sourceId": "journal-accounting-auditing-and-accountability-journal",
+   "name": "Accounting Auditing & Accountability Journal",
+   "issns": [
+    "1368-0668",
+    "1758-4205"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-accounting-forum",
+   "name": "Accounting Forum",
+   "issns": [
+    "0155-9982",
+    "1467-6303"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-accounting-horizons",
+   "name": "Accounting Horizons",
+   "issns": [
+    "0888-7993",
+    "1558-7975"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-accounting-and-business-research",
+   "name": "Accounting and Business Research",
+   "issns": [
+    "0001-4788",
+    "2159-4260"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-african-affairs",
+   "name": "African Affairs",
+   "issns": [
+    "0001-9909",
+    "1468-2621"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-economic-journal-applied-economics",
+   "name": "American Economic Journal Applied Economics",
+   "issns": [
+    "1945-7782",
+    "1945-7790"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-economic-journal-economic-policy",
+   "name": "American Economic Journal Economic Policy",
+   "issns": [
+    "1945-774X",
+    "1945-7731"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-economic-journal-macroeconomics",
+   "name": "American Economic Journal Macroeconomics",
+   "issns": [
+    "1945-7707",
+    "1945-7715"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-economic-journal-microeconomics",
+   "name": "American Economic Journal Microeconomics",
+   "issns": [
+    "1945-7669",
+    "1945-7685"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-economic-review-insights",
+   "name": "American Economic Review Insights",
+   "issns": [
+    "2640-205X",
+    "2640-2068"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-journal-of-agricultural-economics",
+   "name": "American Journal of Agricultural Economics",
+   "issns": [
+    "0002-9092",
+    "1467-8276"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-journal-of-sociology",
+   "name": "American Journal of Sociology",
+   "issns": [
+    "0002-9602",
+    "1537-5390"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-american-sociological-review",
+   "name": "American Sociological Review",
+   "issns": [
+    "0003-1224",
+    "1939-8271"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-annals-of-operations-research",
+   "name": "Annals of Operations Research",
+   "issns": [
+    "0254-5330",
+    "1572-9338"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-annals-of-tourism-research",
+   "name": "Annals of Tourism Research",
+   "issns": [
+    "0160-7383",
+    "1873-7722"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S51885707"
+  },
+  {
+   "sourceId": "journal-annual-review-of-economics",
+   "name": "Annual Review of Economics",
+   "issns": [
+    "1941-1383",
+    "1941-1391"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-annual-review-of-financial-economics",
+   "name": "Annual Review of Financial Economics",
+   "issns": [
+    "1941-1367",
+    "1941-1375"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-annual-review-of-psychology",
+   "name": "Annual Review of Psychology",
+   "issns": [
+    "0066-4308",
+    "1545-2085"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-annual-review-of-sociology",
+   "name": "Annual Review of Sociology",
+   "issns": [
+    "0360-0572",
+    "1545-2115"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-antipode",
+   "name": "Antipode",
+   "issns": [
+    "0066-4812",
+    "1467-8330"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-applied-ergonomics",
+   "name": "Applied Ergonomics",
+   "issns": [
+    "0003-6870",
+    "1872-9126"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S94432539"
+  },
+  {
+   "sourceId": "journal-applied-psychology",
+   "name": "Applied Psychology",
+   "issns": [
+    "0269-994X",
+    "1464-0597"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-asia-pacific-journal-of-management",
+   "name": "Asia Pacific Journal of Management",
+   "issns": [
+    "0217-4561",
+    "1572-9958"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-auditing-a-journal-of-practice-and-theory",
+   "name": "Auditing A Journal of Practice & Theory",
+   "issns": [
+    "0278-0380",
+    "1558-7991"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-behavioral-research-in-accounting",
+   "name": "Behavioral Research in Accounting",
+   "issns": [
+    "1050-4753",
+    "1558-8009"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-behavioral-and-brain-sciences",
+   "name": "Behavioral and Brain Sciences",
+   "issns": [
+    "0140-525X",
+    "1469-1825"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-biometrika",
+   "name": "Biometrika",
+   "issns": [
+    "0006-3444",
+    "1464-3510"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-educational-research-journal",
+   "name": "British Educational Research Journal",
+   "issns": [
+    "0141-1926",
+    "1469-3518"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-journal-of-industrial-relations",
+   "name": "British Journal of Industrial Relations",
+   "issns": [
+    "0007-1080",
+    "1467-8543"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-journal-of-management",
+   "name": "British Journal of Management",
+   "issns": [
+    "1045-3172",
+    "1467-8551"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-journal-of-psychology",
+   "name": "British Journal of Psychology",
+   "issns": [
+    "0007-1269",
+    "2044-8295"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-journal-of-social-psychology",
+   "name": "British Journal of Social Psychology",
+   "issns": [
+    "0144-6665",
+    "2044-8309"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-journal-of-sociology",
+   "name": "British Journal of Sociology",
+   "issns": [
+    "0007-1315",
+    "1468-4446"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-british-tax-review",
+   "name": "British tax review",
+   "issns": [
+    "0007-1870"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S2764355095"
+  },
+  {
+   "sourceId": "journal-brookings-papers-on-economic-activity",
+   "name": "Brookings Papers on Economic Activity",
+   "issns": [
+    "0007-2303",
+    "1533-4465"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-business-and-society",
+   "name": "Business & Society",
+   "issns": [
+    "0007-6503",
+    "1552-4205"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-business-ethics-quarterly",
+   "name": "Business Ethics Quarterly",
+   "issns": [
+    "1052-150X",
+    "2153-3326"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-business-history",
+   "name": "Business History",
+   "issns": [
+    "0007-6791",
+    "1743-7938"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-business-strategy-and-the-environment",
+   "name": "Business Strategy and the Environment",
+   "issns": [
+    "0964-4733",
+    "1099-0836"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-california-management-review",
+   "name": "California Management Review",
+   "issns": [
+    "0008-1256",
+    "2162-8564"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-cambridge-journal-of-economics",
+   "name": "Cambridge Journal of Economics",
+   "issns": [
+    "0309-166X",
+    "1464-3545"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-cambridge-journal-of-regions-economy-and-society",
+   "name": "Cambridge Journal of Regions Economy and Society",
+   "issns": [
+    "1752-1378",
+    "1752-1386"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-canadian-journal-of-economics-revue-canadienne-d",
+   "name": "Canadian Journal of Economics/Revue canadienne d économique",
+   "issns": [
+    "0008-4085",
+    "1540-5982"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-cognition",
+   "name": "Cognition",
+   "issns": [
+    "0010-0277",
+    "1873-7838"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S88198767"
+  },
+  {
+   "sourceId": "journal-cognitive-science",
+   "name": "Cognitive Science",
+   "issns": [
+    "0364-0213",
+    "1551-6709"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-computational-optimization-and-applications",
+   "name": "Computational Optimization and Applications",
+   "issns": [
+    "0926-6003",
+    "1573-2894"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-computational-statistics-and-data-analysis",
+   "name": "Computational Statistics & Data Analysis",
+   "issns": [
+    "0167-9473",
+    "1872-7352"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S132362803"
+  },
+  {
+   "sourceId": "journal-computers-and-operations-research",
+   "name": "Computers & Operations Research",
+   "issns": [
+    "0305-0548",
+    "1873-765X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S173256270"
+  },
+  {
+   "sourceId": "journal-computers-in-industry",
+   "name": "Computers in Industry",
+   "issns": [
+    "0166-3615",
+    "1872-6194"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S60779006"
+  },
+  {
+   "sourceId": "journal-corporate-governance-an-international-review",
+   "name": "Corporate Governance An International Review",
+   "issns": [
+    "0964-8410",
+    "1467-8683"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-critical-perspectives-on-accounting",
+   "name": "Critical Perspectives on Accounting",
+   "issns": [
+    "1045-2354",
+    "1095-9955"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-current-directions-in-psychological-science",
+   "name": "Current Directions in Psychological Science",
+   "issns": [
+    "0963-7214",
+    "1467-8721"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-decision-sciences",
+   "name": "Decision Sciences",
+   "issns": [
+    "0011-7315",
+    "1540-5915"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-decision-support-systems",
+   "name": "Decision Support Systems",
+   "issns": [
+    "0167-9236",
+    "1873-5797"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S11479521"
+  },
+  {
+   "sourceId": "journal-development-and-change",
+   "name": "Development and Change",
+   "issns": [
+    "0012-155X",
+    "1467-7660"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ecological-economics",
+   "name": "Ecological Economics",
+   "issns": [
+    "0921-8009",
+    "1873-6106"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S136211407"
+  },
+  {
+   "sourceId": "journal-econometric-reviews",
+   "name": "Econometric Reviews",
+   "issns": [
+    "0747-4938",
+    "1532-4168"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-econometric-theory",
+   "name": "Econometric Theory",
+   "issns": [
+    "0266-4666",
+    "1469-4360"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-econometrics-journal",
+   "name": "Econometrics Journal",
+   "issns": [
+    "1368-4221",
+    "1368-423X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-development-and-cultural-change",
+   "name": "Economic Development and Cultural Change",
+   "issns": [
+    "0013-0079",
+    "1539-2988"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-geography",
+   "name": "Economic Geography",
+   "issns": [
+    "0013-0095",
+    "1944-8287"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-inquiry",
+   "name": "Economic Inquiry",
+   "issns": [
+    "0095-2583",
+    "1465-7295"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-policy",
+   "name": "Economic Policy",
+   "issns": [
+    "0266-4658",
+    "1468-0327"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-theory",
+   "name": "Economic Theory",
+   "issns": [
+    "0938-2259",
+    "1432-0479"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economic-and-industrial-democracy",
+   "name": "Economic and Industrial Democracy",
+   "issns": [
+    "0143-831X",
+    "1461-7099"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economica",
+   "name": "Economica",
+   "issns": [
+    "0013-0427",
+    "1468-0335"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-economics-letters",
+   "name": "Economics Letters",
+   "issns": [
+    "0165-1765",
+    "1873-7374"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S36178057"
+  },
+  {
+   "sourceId": "journal-economy-and-society",
+   "name": "Economy and Society",
+   "issns": [
+    "0308-5147",
+    "1469-5766"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-electoral-studies",
+   "name": "Electoral Studies",
+   "issns": [
+    "0261-3794",
+    "1873-6890"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S124584455"
+  },
+  {
+   "sourceId": "journal-energy-economics",
+   "name": "Energy Economics",
+   "issns": [
+    "0140-9883",
+    "1873-6181"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S94499970"
+  },
+  {
+   "sourceId": "journal-enterprise-and-society",
+   "name": "Enterprise & Society",
+   "issns": [
+    "1467-2227",
+    "1467-2235"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-entrepreneurship-and-regional-development",
+   "name": "Entrepreneurship and Regional Development",
+   "issns": [
+    "0898-5626",
+    "1464-5114"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-environment-and-planning-a-economy-and-space",
+   "name": "Environment and Planning A Economy and Space",
+   "issns": [
+    "0308-518X",
+    "1472-3409"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-environment-and-planning-c-government-and-policy",
+   "name": "Environment and Planning C Government and Policy",
+   "issns": [
+    "0263-774X",
+    "1472-3425"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-environment-and-planning-d-society-and-space",
+   "name": "Environment and Planning D Society and Space",
+   "issns": [
+    "0263-7758",
+    "1472-3433"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-environmental-science-and-policy",
+   "name": "Environmental Science & Policy",
+   "issns": [
+    "1462-9011",
+    "1873-6416"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S39803240"
+  },
+  {
+   "sourceId": "journal-environmental-science-and-technology",
+   "name": "Environmental Science & Technology",
+   "issns": [
+    "0013-936X",
+    "1520-5851"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-environmental-and-resource-economics",
+   "name": "Environmental and Resource Economics",
+   "issns": [
+    "0924-6460",
+    "1573-1502"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ergonomics",
+   "name": "Ergonomics",
+   "issns": [
+    "0014-0139",
+    "1366-5847"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-accounting-review",
+   "name": "European Accounting Review",
+   "issns": [
+    "0963-8180",
+    "1468-4497"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-economic-review",
+   "name": "European Economic Review",
+   "issns": [
+    "0014-2921",
+    "1873-572X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S69338747"
+  },
+  {
+   "sourceId": "journal-european-financial-management",
+   "name": "European Financial Management",
+   "issns": [
+    "1354-7798",
+    "1468-036X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-finance",
+   "name": "European Journal of Finance",
+   "issns": [
+    "1351-847X",
+    "1466-4364"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-industrial-relations",
+   "name": "European Journal of Industrial Relations",
+   "issns": [
+    "0959-6801",
+    "1461-7129"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-information-systems",
+   "name": "European Journal of Information Systems",
+   "issns": [
+    "0960-085X",
+    "1476-9344"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-marketing",
+   "name": "European Journal of Marketing",
+   "issns": [
+    "0309-0566",
+    "1758-7123"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-operational-research",
+   "name": "European Journal of Operational Research",
+   "issns": [
+    "0377-2217",
+    "1872-6860"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S103321696"
+  },
+  {
+   "sourceId": "journal-european-journal-of-social-psychology",
+   "name": "European Journal of Social Psychology",
+   "issns": [
+    "0046-2772",
+    "1099-0992"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-journal-of-work-and-organizational-psyc",
+   "name": "European Journal of Work and Organizational Psychology",
+   "issns": [
+    "1359-432X",
+    "1464-0643"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-management-review",
+   "name": "European Management Review",
+   "issns": [
+    "1740-4754",
+    "1740-4762"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-review-of-agricultural-economics",
+   "name": "European Review of Agricultural Economics",
+   "issns": [
+    "0165-1587",
+    "1464-3618"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-review-of-economic-history",
+   "name": "European Review of Economic History",
+   "issns": [
+    "1361-4916",
+    "1474-0044"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-sociological-review",
+   "name": "European Sociological Review",
+   "issns": [
+    "0266-7215",
+    "1468-2672"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-sport-management-quarterly",
+   "name": "European Sport Management Quarterly",
+   "issns": [
+    "1618-4742",
+    "1746-031X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-european-urban-and-regional-studies",
+   "name": "European Urban and Regional Studies",
+   "issns": [
+    "0969-7764",
+    "1461-7145"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-evolutionary-computation",
+   "name": "Evolutionary Computation",
+   "issns": [
+    "1063-6560",
+    "1530-9304"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-experimental-economics",
+   "name": "Experimental Economics",
+   "issns": [
+    "1386-4157",
+    "1573-6938"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-explorations-in-economic-history",
+   "name": "Explorations in Economic History",
+   "issns": [
+    "0014-4983",
+    "1090-2457"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-family-business-review",
+   "name": "Family Business Review",
+   "issns": [
+    "0894-4865",
+    "1741-6248"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-finance-and-stochastics",
+   "name": "Finance and Stochastics",
+   "issns": [
+    "0949-2984",
+    "1432-1122"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-financial-accountability-and-management",
+   "name": "Financial Accountability and Management",
+   "issns": [
+    "0267-4424",
+    "1468-0408"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-financial-analysts-journal",
+   "name": "Financial Analysts Journal",
+   "issns": [
+    "0015-198X",
+    "1938-3312"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-financial-management",
+   "name": "Financial Management",
+   "issns": [
+    "0046-3892",
+    "1755-053X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-financial-markets-institutions-and-instruments",
+   "name": "Financial Markets Institutions and Instruments",
+   "issns": [
+    "0963-8008",
+    "1468-0416"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-financial-review",
+   "name": "Financial Review",
+   "issns": [
+    "0732-8516",
+    "1540-6288"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-food-policy",
+   "name": "Food Policy",
+   "issns": [
+    "0306-9192",
+    "1873-5657"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S63571384"
+  },
+  {
+   "sourceId": "journal-foundations-and-trends-in-accounting",
+   "name": "Foundations and Trends® in Accounting",
+   "issns": [
+    "1554-0642",
+    "1554-0650"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-fuzzy-optimization-and-decision-making",
+   "name": "Fuzzy Optimization and Decision Making",
+   "issns": [
+    "1568-4539",
+    "1573-2908"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-games-and-economic-behavior",
+   "name": "Games and Economic Behavior",
+   "issns": [
+    "0899-8256",
+    "1090-2473"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-gender-and-society",
+   "name": "Gender & Society",
+   "issns": [
+    "0891-2432",
+    "1552-3977"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-gender-work-and-organization",
+   "name": "Gender Work and Organization",
+   "issns": [
+    "0968-6673",
+    "1468-0432"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-global-environmental-change",
+   "name": "Global Environmental Change",
+   "issns": [
+    "0959-3780",
+    "1872-9495"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S130750583"
+  },
+  {
+   "sourceId": "journal-global-networks",
+   "name": "Global Networks",
+   "issns": [
+    "1470-2266",
+    "1471-0374"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-global-strategy-journal",
+   "name": "Global Strategy Journal",
+   "issns": [
+    "2042-5791",
+    "2042-5805"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-governance",
+   "name": "Governance",
+   "issns": [
+    "0952-1895",
+    "1468-0491"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-government-information-quarterly",
+   "name": "Government Information Quarterly",
+   "issns": [
+    "0740-624X",
+    "1872-9517"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S201710173"
+  },
+  {
+   "sourceId": "journal-group-and-organization-management",
+   "name": "Group & Organization Management",
+   "issns": [
+    "1059-6011",
+    "1552-3993"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-health-economics",
+   "name": "Health Economics",
+   "issns": [
+    "1057-9230",
+    "1099-1050"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-health-services-research",
+   "name": "Health Services Research",
+   "issns": [
+    "0017-9124",
+    "1475-6773"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-human-factors-the-journal-of-the-human-factors-a",
+   "name": "Human Factors The Journal of the Human Factors and Ergonomics Society",
+   "issns": [
+    "0018-7208",
+    "1547-8181"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-human-performance",
+   "name": "Human Performance",
+   "issns": [
+    "0895-9285",
+    "1532-7043"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-human-resource-management-journal",
+   "name": "Human Resource Management Journal",
+   "issns": [
+    "0954-5395",
+    "1748-8583"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-human-resource-management-review",
+   "name": "Human Resource Management Review",
+   "issns": [
+    "1053-4822",
+    "1873-7889"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S185253248"
+  },
+  {
+   "sourceId": "journal-ieee-transactions-on-cybernetics",
+   "name": "IEEE Transactions on Cybernetics",
+   "issns": [
+    "2168-2267",
+    "2168-2275"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ieee-transactions-on-engineering-management",
+   "name": "IEEE Transactions on Engineering Management",
+   "issns": [
+    "0018-9391",
+    "1558-0040"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ieee-transactions-on-evolutionary-computation",
+   "name": "IEEE Transactions on Evolutionary Computation",
+   "issns": [
+    "1089-778X",
+    "1941-0026"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ieee-transactions-on-systems-man-and-cybernetics",
+   "name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+   "issns": [
+    "2168-2216",
+    "2168-2232"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-iie-transactions",
+   "name": "IIE Transactions",
+   "issns": [
+    "0740-817X",
+    "1545-8830"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-ilr-review",
+   "name": "ILR Review",
+   "issns": [
+    "0019-7939",
+    "2162-271X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-imf-economic-review",
+   "name": "IMF Economic Review",
+   "issns": [
+    "2041-4161",
+    "2041-417X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-informs-journal-on-computing",
+   "name": "INFORMS Journal on Computing",
+   "issns": [
+    "0899-1499",
+    "1526-5528",
+    "1091-9856",
+    "2326-3245"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-industrial-law-journal",
+   "name": "Industrial Law Journal",
+   "issns": [
+    "0305-9332",
+    "1464-3669"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-industrial-marketing-management",
+   "name": "Industrial Marketing Management",
+   "issns": [
+    "0019-8501",
+    "1873-2062"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S31748134"
+  },
+  {
+   "sourceId": "journal-industrial-relations-a-journal-of-economy-and-so",
+   "name": "Industrial Relations A Journal of Economy and Society",
+   "issns": [
+    "0019-8676",
+    "1468-232X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-industrial-relations-journal",
+   "name": "Industrial Relations Journal",
+   "issns": [
+    "0019-8692",
+    "1468-2338"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-industrial-and-corporate-change",
+   "name": "Industrial and Corporate Change",
+   "issns": [
+    "0960-6491",
+    "1464-3650"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-industry-and-innovation",
+   "name": "Industry and Innovation",
+   "issns": [
+    "1366-2716",
+    "1469-8390"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-information-and-management",
+   "name": "Information & Management",
+   "issns": [
+    "0378-7206",
+    "1872-7530"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S38883057"
+  },
+  {
+   "sourceId": "journal-information-systems-frontiers",
+   "name": "Information Systems Frontiers",
+   "issns": [
+    "1387-3326",
+    "1572-9419"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-information-systems-journal",
+   "name": "Information Systems Journal",
+   "issns": [
+    "1350-1917",
+    "1365-2575"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-information-technology-and-people",
+   "name": "Information Technology and People",
+   "issns": [
+    "0959-3845",
+    "1758-5813"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-information-and-organization",
+   "name": "Information and Organization",
+   "issns": [
+    "1471-7727",
+    "1873-7919"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S35363033"
+  },
+  {
+   "sourceId": "journal-insurance-mathematics-and-economics",
+   "name": "Insurance Mathematics and Economics",
+   "issns": [
+    "0167-6687",
+    "1873-5959"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S198325475"
+  },
+  {
+   "sourceId": "journal-international-business-review",
+   "name": "International Business Review",
+   "issns": [
+    "0969-5931",
+    "1873-6149"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S23343376"
+  },
+  {
+   "sourceId": "journal-international-economic-review",
+   "name": "International Economic Review",
+   "issns": [
+    "0020-6598",
+    "1468-2354"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-contemporary-hospitalit",
+   "name": "International Journal of Contemporary Hospitality Management",
+   "issns": [
+    "0959-6119",
+    "1757-1049"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-electronic-commerce",
+   "name": "International Journal of Electronic Commerce",
+   "issns": [
+    "1086-4415",
+    "1557-9301"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-entrepreneurial-behavio",
+   "name": "International Journal of Entrepreneurial Behavior & Research",
+   "issns": [
+    "1355-2554",
+    "1758-6534"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-finance-and-economics",
+   "name": "International Journal of Finance & Economics",
+   "issns": [
+    "1076-9307",
+    "1099-1158"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-forecasting",
+   "name": "International Journal of Forecasting",
+   "issns": [
+    "0169-2070",
+    "1872-8200"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S39841227"
+  },
+  {
+   "sourceId": "journal-international-journal-of-hospitality-management",
+   "name": "International Journal of Hospitality Management",
+   "issns": [
+    "0278-4319",
+    "1873-4693"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S148599315"
+  },
+  {
+   "sourceId": "journal-international-journal-of-industrial-organization",
+   "name": "International Journal of Industrial Organization",
+   "issns": [
+    "0167-7187",
+    "1873-7986"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S183232449"
+  },
+  {
+   "sourceId": "journal-international-journal-of-management-reviews",
+   "name": "International Journal of Management Reviews",
+   "issns": [
+    "1460-8545",
+    "1468-2370"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-operations-and-producti",
+   "name": "International Journal of Operations & Production Management",
+   "issns": [
+    "0144-3577",
+    "1758-6593"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-production-economics",
+   "name": "International Journal of Production Economics",
+   "issns": [
+    "0925-5273",
+    "1873-7579"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S184816971"
+  },
+  {
+   "sourceId": "journal-international-journal-of-production-research",
+   "name": "International Journal of Production Research",
+   "issns": [
+    "0020-7543",
+    "1366-588X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-rehabilitation-research",
+   "name": "International Journal of Rehabilitation Research",
+   "issns": [
+    "0342-5282",
+    "1473-5660"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-journal-of-research-in-marketing",
+   "name": "International Journal of Research in Marketing",
+   "issns": [
+    "0167-8116",
+    "1873-8001"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S11810700"
+  },
+  {
+   "sourceId": "journal-international-marketing-review",
+   "name": "International Marketing Review",
+   "issns": [
+    "0265-1335",
+    "1758-6763"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-public-management-journal",
+   "name": "International Public Management Journal",
+   "issns": [
+    "1096-7494",
+    "1559-3169"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-review-of-administrative-sciences",
+   "name": "International Review of Administrative Sciences",
+   "issns": [
+    "0020-8523",
+    "1461-7226"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-review-of-financial-analysis",
+   "name": "International Review of Financial Analysis",
+   "issns": [
+    "1057-5219",
+    "1873-8079"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S145572626"
+  },
+  {
+   "sourceId": "journal-international-small-business-journal-researching",
+   "name": "International Small Business Journal Researching Entrepreneurship",
+   "issns": [
+    "0266-2426",
+    "1741-2870"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-international-statistical-review",
+   "name": "International Statistical Review",
+   "issns": [
+    "0306-7734",
+    "1751-5823"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-internet-research",
+   "name": "Internet Research",
+   "issns": [
+    "1066-2243",
+    "2054-5657"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-jcms-journal-of-common-market-studies",
+   "name": "JCMS Journal of Common Market Studies",
+   "issns": [
+    "0021-9886",
+    "1468-5965"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-accounting-auditing-and-finance",
+   "name": "Journal of Accounting Auditing & Finance",
+   "issns": [
+    "0148-558X",
+    "2160-4061"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-accounting-literature",
+   "name": "Journal of Accounting Literature",
+   "issns": [
+    "0737-4607",
+    "2452-1469"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-accounting-and-public-policy",
+   "name": "Journal of Accounting and Public Policy",
+   "issns": [
+    "0278-4254",
+    "1873-2070"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S86762183"
+  },
+  {
+   "sourceId": "journal-journal-of-advertising",
+   "name": "Journal of Advertising",
+   "issns": [
+    "0091-3367",
+    "1557-7805"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-advertising-research",
+   "name": "Journal of Advertising Research",
+   "issns": [
+    "0021-8499",
+    "1740-1909"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-agricultural-economics",
+   "name": "Journal of Agricultural Economics",
+   "issns": [
+    "0021-857X",
+    "1477-9552"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-applied-econometrics",
+   "name": "Journal of Applied Econometrics",
+   "issns": [
+    "0883-7252",
+    "1099-1255"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-banking-and-finance",
+   "name": "Journal of Banking & Finance",
+   "issns": [
+    "0378-4266",
+    "1872-6372"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S2876017"
+  },
+  {
+   "sourceId": "journal-journal-of-behavioral-decision-making",
+   "name": "Journal of Behavioral Decision Making",
+   "issns": [
+    "0894-3257",
+    "1099-0771"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-finance-and-amp-accounting",
+   "name": "Journal of Business Finance &amp Accounting",
+   "issns": [
+    "0306-686X",
+    "1468-5957"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-logistics",
+   "name": "Journal of Business Logistics",
+   "issns": [
+    "0735-3766",
+    "2158-1592"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-research",
+   "name": "Journal of Business Research",
+   "issns": [
+    "0148-2963",
+    "1873-7978"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S93284759"
+  },
+  {
+   "sourceId": "journal-journal-of-business-and-economic-statistics",
+   "name": "Journal of Business and Economic Statistics",
+   "issns": [
+    "0735-0015",
+    "1537-2707"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-business-and-psychology",
+   "name": "Journal of Business and Psychology",
+   "issns": [
+    "0889-3268",
+    "1573-353X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-comparative-economics",
+   "name": "Journal of Comparative Economics",
+   "issns": [
+    "0147-5967",
+    "1095-7227"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-computational-and-graphical-statistic",
+   "name": "Journal of Computational and Graphical Statistics",
+   "issns": [
+    "1061-8600",
+    "1537-2715"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-computer-mediated-communication",
+   "name": "Journal of Computer-Mediated Communication",
+   "issns": [
+    "1083-6101"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-conflict-resolution",
+   "name": "Journal of Conflict Resolution",
+   "issns": [
+    "0022-0027",
+    "1552-8766"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-corporate-finance",
+   "name": "Journal of Corporate Finance",
+   "issns": [
+    "0929-1199",
+    "1872-6313"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S152282257"
+  },
+  {
+   "sourceId": "journal-journal-of-cross-cultural-psychology",
+   "name": "Journal of Cross-Cultural Psychology",
+   "issns": [
+    "0022-0221",
+    "1552-5422"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-development-economics",
+   "name": "Journal of Development Economics",
+   "issns": [
+    "0304-3878",
+    "1872-6089"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S101209419"
+  },
+  {
+   "sourceId": "journal-journal-of-econometrics",
+   "name": "Journal of Econometrics",
+   "issns": [
+    "0304-4076",
+    "1872-6895"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-economic-behavior-and-organization",
+   "name": "Journal of Economic Behavior & Organization",
+   "issns": [
+    "0167-2681",
+    "1879-1751"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S62201805"
+  },
+  {
+   "sourceId": "journal-journal-of-economic-dynamics-and-control",
+   "name": "Journal of Economic Dynamics and Control",
+   "issns": [
+    "0165-1889",
+    "1879-1743"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S44585919"
+  },
+  {
+   "sourceId": "journal-journal-of-economic-geography",
+   "name": "Journal of Economic Geography",
+   "issns": [
+    "1468-2702",
+    "1468-2710"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-economic-growth",
+   "name": "Journal of Economic Growth",
+   "issns": [
+    "1381-4338",
+    "1573-7020"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-economic-literature",
+   "name": "Journal of Economic Literature",
+   "issns": [
+    "0022-0515",
+    "2328-8175"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-economic-theory",
+   "name": "Journal of Economic Theory",
+   "issns": [
+    "0022-0531",
+    "1095-7235"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-empirical-finance",
+   "name": "Journal of Empirical Finance",
+   "issns": [
+    "0927-5398",
+    "1879-1727"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S145875555"
+  },
+  {
+   "sourceId": "journal-journal-of-environmental-economics-and-managemen",
+   "name": "Journal of Environmental Economics and Management",
+   "issns": [
+    "0095-0696",
+    "1096-0449"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-environmental-management",
+   "name": "Journal of Environmental Management",
+   "issns": [
+    "0301-4797",
+    "1095-8630"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-european-public-policy",
+   "name": "Journal of European Public Policy",
+   "issns": [
+    "1350-1763",
+    "1466-4429"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-european-social-policy",
+   "name": "Journal of European Social Policy",
+   "issns": [
+    "0958-9287",
+    "1461-7269"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-experimental-psychology-applied",
+   "name": "Journal of Experimental Psychology Applied",
+   "issns": [
+    "1076-898X",
+    "1939-2192"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-experimental-psychology-general",
+   "name": "Journal of Experimental Psychology General",
+   "issns": [
+    "0096-3445",
+    "1939-2222"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-experimental-psychology-learning-memo",
+   "name": "Journal of Experimental Psychology Learning Memory and Cognition",
+   "issns": [
+    "0278-7393",
+    "1939-1285"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-experimental-social-psychology",
+   "name": "Journal of Experimental Social Psychology",
+   "issns": [
+    "0022-1031",
+    "1096-0465"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-econometrics",
+   "name": "Journal of Financial Econometrics",
+   "issns": [
+    "1479-8409",
+    "1479-8417"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-intermediation",
+   "name": "Journal of Financial Intermediation",
+   "issns": [
+    "1042-9573",
+    "1096-0473"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-markets",
+   "name": "Journal of Financial Markets",
+   "issns": [
+    "1386-4181",
+    "1878-576X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S127646213"
+  },
+  {
+   "sourceId": "journal-journal-of-financial-services-research",
+   "name": "Journal of Financial Services Research",
+   "issns": [
+    "0920-8550",
+    "1573-0735"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-financial-stability",
+   "name": "Journal of Financial Stability",
+   "issns": [
+    "1572-3089",
+    "1878-0962"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-futures-markets",
+   "name": "Journal of Futures Markets",
+   "issns": [
+    "0270-7314",
+    "1096-9934"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-health-economics",
+   "name": "Journal of Health Economics",
+   "issns": [
+    "0167-6296",
+    "1879-1646"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S166621295"
+  },
+  {
+   "sourceId": "journal-journal-of-heuristics",
+   "name": "Journal of Heuristics",
+   "issns": [
+    "1381-1231",
+    "1572-9397"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-human-capital",
+   "name": "Journal of Human Capital",
+   "issns": [
+    "1932-8575",
+    "1932-8664"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-human-resources",
+   "name": "Journal of Human Resources",
+   "issns": [
+    "1548-8004"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-industrial-economics",
+   "name": "Journal of Industrial Economics",
+   "issns": [
+    "0022-1821",
+    "1467-6451"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-information-technology",
+   "name": "Journal of Information Technology",
+   "issns": [
+    "0268-3962",
+    "1466-4437"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-institutional-economics",
+   "name": "Journal of Institutional Economics",
+   "issns": [
+    "1744-1374",
+    "1744-1382"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-interactive-marketing",
+   "name": "Journal of Interactive Marketing",
+   "issns": [
+    "1094-9968",
+    "1520-6653"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-international-accounting-auditing-and",
+   "name": "Journal of International Accounting Auditing and Taxation",
+   "issns": [
+    "1061-9518"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-international-economics",
+   "name": "Journal of International Economics",
+   "issns": [
+    "0022-1996",
+    "1873-0353"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S198098467"
+  },
+  {
+   "sourceId": "journal-journal-of-international-financial-markets-insti",
+   "name": "Journal of International Financial Markets Institutions and Money",
+   "issns": [
+    "1042-4431",
+    "1873-0612"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S82743730"
+  },
+  {
+   "sourceId": "journal-journal-of-international-management",
+   "name": "Journal of International Management",
+   "issns": [
+    "1075-4253",
+    "1873-0620"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S960608072"
+  },
+  {
+   "sourceId": "journal-journal-of-international-marketing",
+   "name": "Journal of International Marketing",
+   "issns": [
+    "1069-031X",
+    "1547-7215"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-international-money-and-finance",
+   "name": "Journal of International Money and Finance",
+   "issns": [
+    "0261-5606",
+    "1873-0639"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S10747938"
+  },
+  {
+   "sourceId": "journal-journal-of-labor-economics",
+   "name": "Journal of Labor Economics",
+   "issns": [
+    "0734-306X",
+    "1537-5307"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-management-inquiry",
+   "name": "Journal of Management Inquiry",
+   "issns": [
+    "1056-4926",
+    "1552-6542"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-managerial-psychology",
+   "name": "Journal of Managerial Psychology",
+   "issns": [
+    "0268-3946",
+    "1758-7778"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-marketing-and-public-policy",
+   "name": "Journal of Marketing & Public Policy",
+   "issns": [
+    "0748-6766",
+    "1547-7207"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-mathematical-economics",
+   "name": "Journal of Mathematical Economics",
+   "issns": [
+    "0304-4068",
+    "1873-1538"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S202934171"
+  },
+  {
+   "sourceId": "journal-journal-of-monetary-economics",
+   "name": "Journal of Monetary Economics",
+   "issns": [
+    "0304-3932",
+    "1873-1295"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S6711363"
+  },
+  {
+   "sourceId": "journal-journal-of-multivariate-analysis",
+   "name": "Journal of Multivariate Analysis",
+   "issns": [
+    "0047-259X",
+    "1095-7243"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-occupational-health-psychology",
+   "name": "Journal of Occupational Health Psychology",
+   "issns": [
+    "1076-8998",
+    "1939-1307"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-occupational-and-organizational-psych",
+   "name": "Journal of Occupational and Organizational Psychology",
+   "issns": [
+    "0963-1798",
+    "2044-8325"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-optimization-theory-and-applications",
+   "name": "Journal of Optimization Theory and Applications",
+   "issns": [
+    "0022-3239",
+    "1573-2878"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-organizational-behavior",
+   "name": "Journal of Organizational Behavior",
+   "issns": [
+    "0894-3796",
+    "1099-1379"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-personality-and-social-psychology",
+   "name": "Journal of Personality and Social Psychology",
+   "issns": [
+    "0022-3514",
+    "1939-1315"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-policy-analysis-and-management",
+   "name": "Journal of Policy Analysis and Management",
+   "issns": [
+    "0276-8739",
+    "1520-6688"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-population-economics",
+   "name": "Journal of Population Economics",
+   "issns": [
+    "0933-1433",
+    "1432-1475"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-product-innovation-management",
+   "name": "Journal of Product Innovation Management",
+   "issns": [
+    "0737-6782",
+    "1540-5885"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-public-administration-research-and-th",
+   "name": "Journal of Public Administration Research and Theory",
+   "issns": [
+    "1053-1858",
+    "1477-9803"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-public-economics",
+   "name": "Journal of Public Economics",
+   "issns": [
+    "0047-2727"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-purchasing-and-supply-management",
+   "name": "Journal of Purchasing and Supply Management",
+   "issns": [
+    "1478-4092",
+    "1873-6505"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S55239356"
+  },
+  {
+   "sourceId": "journal-journal-of-regional-science",
+   "name": "Journal of Regional Science",
+   "issns": [
+    "0022-4146",
+    "1467-9787"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-retailing",
+   "name": "Journal of Retailing",
+   "issns": [
+    "0022-4359",
+    "1873-3271"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S159120381"
+  },
+  {
+   "sourceId": "journal-journal-of-risk-and-insurance",
+   "name": "Journal of Risk & Insurance",
+   "issns": [
+    "0022-4367",
+    "1539-6975"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-risk-and-uncertainty",
+   "name": "Journal of Risk and Uncertainty",
+   "issns": [
+    "0895-5646",
+    "1573-0476"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-rural-studies",
+   "name": "Journal of Rural Studies",
+   "issns": [
+    "0743-0167",
+    "1873-1392"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S28036099"
+  },
+  {
+   "sourceId": "journal-journal-of-school-psychology",
+   "name": "Journal of School Psychology",
+   "issns": [
+    "0022-4405",
+    "1873-3506"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S69627091"
+  },
+  {
+   "sourceId": "journal-journal-of-service-research",
+   "name": "Journal of Service Research",
+   "issns": [
+    "1094-6705",
+    "1552-7379"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-small-business-management",
+   "name": "Journal of Small Business Management",
+   "issns": [
+    "1540-627X",
+    "0047-2778"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-social-policy",
+   "name": "Journal of Social Policy",
+   "issns": [
+    "0047-2794",
+    "1469-7823"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-supply-chain-management",
+   "name": "Journal of Supply Chain Management",
+   "issns": [
+    "1523-2409",
+    "1745-493X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-sustainable-tourism",
+   "name": "Journal of Sustainable Tourism",
+   "issns": [
+    "0966-9582",
+    "1747-7646"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-time-series-analysis",
+   "name": "Journal of Time Series Analysis",
+   "issns": [
+    "0143-9782",
+    "1467-9892"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-travel-research",
+   "name": "Journal of Travel Research",
+   "issns": [
+    "0047-2875",
+    "1552-6763"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-urban-economics",
+   "name": "Journal of Urban Economics",
+   "issns": [
+    "0094-1190",
+    "1095-9068"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-vocational-behavior",
+   "name": "Journal of Vocational Behavior",
+   "issns": [
+    "0001-8791",
+    "1095-9084"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-world-business",
+   "name": "Journal of World Business",
+   "issns": [
+    "1090-9516",
+    "1878-5573"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S143995394"
+  },
+  {
+   "sourceId": "journal-journal-of-commodity-markets",
+   "name": "Journal of commodity markets",
+   "issns": [
+    "2405-8505",
+    "2405-8513"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S2898531903"
+  },
+  {
+   "sourceId": "journal-journal-of-money-credit-and-banking",
+   "name": "Journal of money credit and banking",
+   "issns": [
+    "0022-2879",
+    "1538-4616"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-american-statistical-association",
+   "name": "Journal of the American Statistical Association",
+   "issns": [
+    "0162-1459",
+    "1537-274X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-american-taxation-association",
+   "name": "Journal of the American Taxation Association",
+   "issns": [
+    "0198-9073",
+    "1558-8017"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-association-for-information-scien",
+   "name": "Journal of the Association for Information Science and Technology",
+   "issns": [
+    "2330-1635",
+    "2330-1643"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-association-of-environmental-and",
+   "name": "Journal of the Association of Environmental and Resource Economists",
+   "issns": [
+    "2333-5955",
+    "2333-5963"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-european-economic-association",
+   "name": "Journal of the European Economic Association",
+   "issns": [
+    "1542-4766",
+    "1542-4774"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-operational-research-society",
+   "name": "Journal of the Operational Research Society",
+   "issns": [
+    "0160-5682",
+    "1476-9360"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-journal-of-the-royal-statistical-society-series",
+   "name": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+   "issns": [
+    "0964-1998",
+    "1467-985X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-of-the-royal-statistical-society-series-2",
+   "name": "Journal of the Royal Statistical Society Series B Statistical Methodology",
+   "issns": [
+    "1369-7412",
+    "1467-9868"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-of-the-royal-statistical-society-series-3",
+   "name": "Journal of the Royal Statistical Society Series C (Applied Statistics)",
+   "issns": [
+    "0035-9254",
+    "1467-9876"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-judgment-and-decision-making",
+   "name": "Judgment and Decision Making",
+   "issns": [
+    "1930-2975"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-kyklos",
+   "name": "Kyklos",
+   "issns": [
+    "0023-5962",
+    "1467-6435"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-labour-economics",
+   "name": "Labour Economics",
+   "issns": [
+    "0927-5371",
+    "1879-1034"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S163774179"
+  },
+  {
+   "sourceId": "journal-land-economics",
+   "name": "Land Economics",
+   "issns": [
+    "0023-7639",
+    "1543-8325"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-long-range-planning",
+   "name": "Long Range Planning",
+   "issns": [
+    "0024-6301",
+    "1873-1872"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S9435936"
+  },
+  {
+   "sourceId": "journal-mit-sloan-management-review",
+   "name": "MIT Sloan Management Review",
+   "issns": [
+    "1532-9194",
+    "1532-8937"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-management-accounting-research",
+   "name": "Management Accounting Research",
+   "issns": [
+    "1044-5005",
+    "1096-1224"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-management-international-review",
+   "name": "Management International Review",
+   "issns": [
+    "0938-8249",
+    "1861-8901"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-management-learning",
+   "name": "Management Learning",
+   "issns": [
+    "1350-5076",
+    "1461-7307"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-management-and-organization-review",
+   "name": "Management and Organization Review",
+   "issns": [
+    "1740-8776",
+    "1740-8784"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-manufacturing-and-service-operations-management",
+   "name": "Manufacturing & Service Operations Management",
+   "issns": [
+    "1523-4614",
+    "1526-5498",
+    "2616-3349"
+   ],
+   "lists": [
+    "ABS",
+    "FT50"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-marketing-letters",
+   "name": "Marketing Letters",
+   "issns": [
+    "0923-0645",
+    "1573-059X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-marketing-theory",
+   "name": "Marketing Theory",
+   "issns": [
+    "1470-5931",
+    "1741-301X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-mathematical-finance",
+   "name": "Mathematical Finance",
+   "issns": [
+    "0960-1627",
+    "1467-9965"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-mathematical-programming",
+   "name": "Mathematical Programming",
+   "issns": [
+    "0025-5610",
+    "1436-4646"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-mathematics-of-operations-research",
+   "name": "Mathematics of Operations Research",
+   "issns": [
+    "0364-765X",
+    "1526-5471"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-milbank-quarterly",
+   "name": "Milbank Quarterly",
+   "issns": [
+    "0887-378X",
+    "1468-0009"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-naval-research-logistics-nrl",
+   "name": "Naval Research Logistics (NRL)",
+   "issns": [
+    "0894-069X",
+    "1520-6750"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-new-political-economy",
+   "name": "New Political Economy",
+   "issns": [
+    "1356-3467",
+    "1469-9923"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-new-technology-work-and-employment",
+   "name": "New Technology Work and Employment",
+   "issns": [
+    "0268-1072",
+    "1468-005X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-nonprofit-and-voluntary-sector-quarterly",
+   "name": "Nonprofit and Voluntary Sector Quarterly",
+   "issns": [
+    "0899-7640",
+    "1552-7395"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-or-spectrum",
+   "name": "OR Spectrum",
+   "issns": [
+    "0171-6468",
+    "1436-6304"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-occupational-and-environmental-medicine",
+   "name": "Occupational and Environmental Medicine",
+   "issns": [
+    "1351-0711",
+    "1470-7926"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-omega",
+   "name": "Omega",
+   "issns": [
+    "0305-0483",
+    "1873-5274"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S4210190151"
+  },
+  {
+   "sourceId": "journal-organization",
+   "name": "Organization",
+   "issns": [
+    "1350-5084",
+    "1461-7323"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-organization-and-environment",
+   "name": "Organization & Environment",
+   "issns": [
+    "1086-0266",
+    "1552-7417"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-organizational-dynamics",
+   "name": "Organizational Dynamics",
+   "issns": [
+    "0090-2616",
+    "1873-3530"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S195297104"
+  },
+  {
+   "sourceId": "journal-organizational-research-methods",
+   "name": "Organizational Research Methods",
+   "issns": [
+    "1094-4281",
+    "1552-7425"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-oxford-bulletin-of-economics-and-statistics",
+   "name": "Oxford Bulletin of Economics and Statistics",
+   "issns": [
+    "0305-9049",
+    "1468-0084"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-oxford-economic-papers",
+   "name": "Oxford Economic Papers",
+   "issns": [
+    "0030-7653",
+    "1464-3812"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-papers-of-the-regional-science-association",
+   "name": "Papers of the Regional Science Association",
+   "issns": [
+    "1056-8190",
+    "1435-5957",
+    "0486-2902"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-personality-and-individual-differences",
+   "name": "Personality and Individual Differences",
+   "issns": [
+    "0191-8869",
+    "1873-3549"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S151331055"
+  },
+  {
+   "sourceId": "journal-personality-and-social-psychology-bulletin",
+   "name": "Personality and Social Psychology Bulletin",
+   "issns": [
+    "0146-1672",
+    "1552-7433"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-personnel-psychology",
+   "name": "Personnel Psychology",
+   "issns": [
+    "0031-5826",
+    "1744-6570"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-policy-and-politics",
+   "name": "Policy & Politics",
+   "issns": [
+    "0305-5736",
+    "1470-8442"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-politics-and-society",
+   "name": "Politics & Society",
+   "issns": [
+    "0032-3292",
+    "1552-7514"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-production-planning-and-control",
+   "name": "Production Planning & Control",
+   "issns": [
+    "0953-7287",
+    "1366-5871"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-progress-in-human-geography",
+   "name": "Progress in Human Geography",
+   "issns": [
+    "0309-1325",
+    "1477-0288"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychological-bulletin",
+   "name": "Psychological Bulletin",
+   "issns": [
+    "0033-2909",
+    "1939-1455"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychological-research",
+   "name": "Psychological Research",
+   "issns": [
+    "0340-0727",
+    "1430-2772"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychological-review",
+   "name": "Psychological Review",
+   "issns": [
+    "0033-295X",
+    "1939-1471"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychological-science",
+   "name": "Psychological Science",
+   "issns": [
+    "0956-7976",
+    "1467-9280"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychology-and-marketing",
+   "name": "Psychology and Marketing",
+   "issns": [
+    "0742-6046",
+    "1520-6793"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychology-of-women-quarterly",
+   "name": "Psychology of Women Quarterly",
+   "issns": [
+    "0361-6843",
+    "1471-6402"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-psychometrika",
+   "name": "Psychometrika",
+   "issns": [
+    "0033-3123",
+    "1860-0980"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-public-administration",
+   "name": "Public Administration",
+   "issns": [
+    "0033-3298",
+    "1467-9299"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-public-administration-review",
+   "name": "Public Administration Review",
+   "issns": [
+    "0033-3352",
+    "1540-6210"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-public-choice",
+   "name": "Public Choice",
+   "issns": [
+    "0048-5829",
+    "1573-7101"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-public-management-review",
+   "name": "Public Management Review",
+   "issns": [
+    "1471-9037",
+    "1471-9045"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-public-opinion-quarterly",
+   "name": "Public Opinion Quarterly",
+   "issns": [
+    "0033-362X",
+    "1537-5331"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-quantitative-economics",
+   "name": "Quantitative Economics",
+   "issns": [
+    "1759-7323",
+    "1759-7331"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-quantitative-finance",
+   "name": "Quantitative Finance",
+   "issns": [
+    "1469-7688",
+    "1469-7696"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-quantitative-marketing-and-economics",
+   "name": "Quantitative Marketing and Economics",
+   "issns": [
+    "1570-7156",
+    "1573-711X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-quarterly-journal-of-experimental-psychology",
+   "name": "Quarterly Journal of Experimental Psychology",
+   "issns": [
+    "1747-0218",
+    "1747-0226"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-quarterly-journal-of-political-science",
+   "name": "Quarterly Journal of Political Science",
+   "issns": [
+    "1554-0626",
+    "1554-0634"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-r-and-d-management",
+   "name": "R and D Management",
+   "issns": [
+    "0033-6807",
+    "1467-9310"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-real-estate-economics",
+   "name": "Real Estate Economics",
+   "issns": [
+    "1080-8620",
+    "1540-6229"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-regional-science-and-urban-economics",
+   "name": "Regional Science and Urban Economics",
+   "issns": [
+    "0166-0462",
+    "1879-2308"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S107631327"
+  },
+  {
+   "sourceId": "journal-regional-studies",
+   "name": "Regional Studies",
+   "issns": [
+    "0034-3404",
+    "1360-0591"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-regulation-and-governance",
+   "name": "Regulation & Governance",
+   "issns": [
+    "1748-5983",
+    "1748-5991"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-reliability-engineering-and-system-safety",
+   "name": "Reliability Engineering & System Safety",
+   "issns": [
+    "0951-8320",
+    "1879-0836"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S202403813"
+  },
+  {
+   "sourceId": "journal-research-in-organizational-behavior",
+   "name": "Research in Organizational Behavior",
+   "issns": [
+    "0191-3085"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-research-in-the-sociology-of-organizations",
+   "name": "Research in the sociology of organizations",
+   "issns": [
+    "0733-558X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S4210170888"
+  },
+  {
+   "sourceId": "journal-review-of-economic-dynamics",
+   "name": "Review of Economic Dynamics",
+   "issns": [
+    "1094-2025",
+    "1096-6099"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S163499366"
+  },
+  {
+   "sourceId": "journal-review-of-income-and-wealth",
+   "name": "Review of Income and Wealth",
+   "issns": [
+    "0034-6586",
+    "1475-4991"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-review-of-international-political-economy",
+   "name": "Review of International Political Economy",
+   "issns": [
+    "0969-2290",
+    "1466-4526"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-review-of-quantitative-finance-and-accounting",
+   "name": "Review of Quantitative Finance and Accounting",
+   "issns": [
+    "0924-865X",
+    "1573-7179"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-risk-analysis",
+   "name": "Risk Analysis",
+   "issns": [
+    "0272-4332",
+    "1539-6924"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-siam-journal-on-optimization",
+   "name": "SIAM Journal on Optimization",
+   "issns": [
+    "1052-6234",
+    "1095-7189"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-scandinavian-journal-of-economics",
+   "name": "Scandinavian Journal of Economics",
+   "issns": [
+    "0347-0520",
+    "1467-9442"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-scandinavian-journal-of-statistics",
+   "name": "Scandinavian Journal of Statistics",
+   "issns": [
+    "0303-6898",
+    "1467-9469"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-scandinavian-journal-of-work-environment-and-hea",
+   "name": "Scandinavian Journal of Work Environment & Health",
+   "issns": [
+    "0355-3140",
+    "1795-990X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-sloan-management-review",
+   "name": "Sloan Management Review",
+   "issns": [
+    "0019-848X"
+   ],
+   "lists": [
+    "FT50"
+   ],
+   "crossref": true,
+   "openalexId": "S189923312"
+  },
+  {
+   "sourceId": "journal-small-business-economics",
+   "name": "Small Business Economics",
+   "issns": [
+    "0921-898X",
+    "1573-0913"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-social-choice-and-welfare",
+   "name": "Social Choice and Welfare",
+   "issns": [
+    "0176-1714",
+    "1432-217X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-social-forces",
+   "name": "Social Forces",
+   "issns": [
+    "0037-7732",
+    "1534-7605"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-social-psychological-and-personality-science",
+   "name": "Social Psychological and Personality Science",
+   "issns": [
+    "1948-5506",
+    "1948-5514"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-social-science-and-medicine",
+   "name": "Social Science & Medicine",
+   "issns": [
+    "0277-9536",
+    "1873-5347"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S106822843"
+  },
+  {
+   "sourceId": "journal-socio-economic-review",
+   "name": "Socio-Economic Review",
+   "issns": [
+    "1475-1461",
+    "1475-147X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-sociological-methodology",
+   "name": "Sociological Methodology",
+   "issns": [
+    "0081-1750",
+    "1467-9531"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-sociology",
+   "name": "Sociology",
+   "issns": [
+    "0038-0385",
+    "1469-8684"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-sociology-of-health-and-illness",
+   "name": "Sociology of Health & Illness",
+   "issns": [
+    "0141-9889",
+    "1467-9566"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-strategic-organization",
+   "name": "Strategic Organization",
+   "issns": [
+    "1476-1270",
+    "1741-315X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-studies-in-higher-education",
+   "name": "Studies in Higher Education",
+   "issns": [
+    "0307-5079",
+    "1470-174X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-supply-chain-management-an-international-journal",
+   "name": "Supply Chain Management An International Journal",
+   "issns": [
+    "1359-8546",
+    "1758-6852"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-technological-forecasting-and-social-change",
+   "name": "Technological Forecasting and Social Change",
+   "issns": [
+    "0040-1625",
+    "1873-5509"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S39307421"
+  },
+  {
+   "sourceId": "journal-technovation",
+   "name": "Technovation",
+   "issns": [
+    "0166-4972",
+    "1879-2383"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S70698675"
+  },
+  {
+   "sourceId": "journal-the-american-review-of-public-administration",
+   "name": "The American Review of Public Administration",
+   "issns": [
+    "0275-0740",
+    "1552-3357"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-annals-of-statistics",
+   "name": "The Annals of Statistics",
+   "issns": [
+    "0090-5364",
+    "2168-8966"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-british-accounting-review",
+   "name": "The British Accounting Review",
+   "issns": [
+    "0890-8389",
+    "1095-8347"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-business-history-review",
+   "name": "The Business History Review",
+   "issns": [
+    "0007-6805",
+    "2044-768X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-economic-history-review",
+   "name": "The Economic History Review",
+   "issns": [
+    "0013-0117",
+    "1468-0289"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-economic-journal",
+   "name": "The Economic Journal",
+   "issns": [
+    "0013-0133",
+    "1468-0297"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-energy-journal",
+   "name": "The Energy Journal",
+   "issns": [
+    "0195-6574",
+    "1944-9089"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-information-society",
+   "name": "The Information Society",
+   "issns": [
+    "0197-2243",
+    "1087-6537"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-international-journal-of-accounting",
+   "name": "The International Journal of Accounting",
+   "issns": [
+    "0020-7063",
+    "2213-3933",
+    "1094-4060"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-international-journal-of-human-resource-mana",
+   "name": "The International Journal of Human Resource Management",
+   "issns": [
+    "0958-5192",
+    "1466-4399"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-development-studies",
+   "name": "The Journal of Development Studies",
+   "issns": [
+    "0022-0388",
+    "1743-9140"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-economic-history",
+   "name": "The Journal of Economic History",
+   "issns": [
+    "0022-0507",
+    "1471-6372"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-economic-perspectives",
+   "name": "The Journal of Economic Perspectives",
+   "issns": [
+    "0895-3309",
+    "1944-7965"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-financial-research",
+   "name": "The Journal of Financial Research",
+   "issns": [
+    "0270-2592",
+    "1475-6803"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-law-economics-and-organization",
+   "name": "The Journal of Law Economics and Organization",
+   "issns": [
+    "8756-6222",
+    "1465-7341"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-law-and-economics",
+   "name": "The Journal of Law and Economics",
+   "issns": [
+    "0022-2186",
+    "1537-5285"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-legal-studies",
+   "name": "The Journal of Legal Studies",
+   "issns": [
+    "0047-2530",
+    "1537-5366"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-portfolio-management",
+   "name": "The Journal of Portfolio Management",
+   "issns": [
+    "0095-4918",
+    "2168-8656"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-real-estate-finance-and-economics",
+   "name": "The Journal of Real Estate Finance and Economics",
+   "issns": [
+    "0895-5638",
+    "1573-045X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-journal-of-strategic-information-systems",
+   "name": "The Journal of Strategic Information Systems",
+   "issns": [
+    "0963-8687",
+    "1873-1198"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S6144335"
+  },
+  {
+   "sourceId": "journal-the-journal-of-technology-transfer",
+   "name": "The Journal of Technology Transfer",
+   "issns": [
+    "0892-9912",
+    "1573-7047"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-leadership-quarterly",
+   "name": "The Leadership Quarterly",
+   "issns": [
+    "1048-9843",
+    "1873-3409"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S152304618"
+  },
+  {
+   "sourceId": "journal-the-rand-journal-of-economics",
+   "name": "The RAND Journal of Economics",
+   "issns": [
+    "0741-6261",
+    "1756-2171"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-review-of-asset-pricing-studies",
+   "name": "The Review of Asset Pricing Studies",
+   "issns": [
+    "2045-9920",
+    "2045-9939"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-review-of-corporate-finance-studies",
+   "name": "The Review of Corporate Finance Studies",
+   "issns": [
+    "2046-9128",
+    "2046-9136"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-review-of-economics-and-statistics",
+   "name": "The Review of Economics and Statistics",
+   "issns": [
+    "0034-6535",
+    "1530-9142"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-sociological-review",
+   "name": "The Sociological Review",
+   "issns": [
+    "0038-0261",
+    "1467-954X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-the-world-bank-economic-review",
+   "name": "The World Bank Economic Review",
+   "issns": [
+    "0258-6770",
+    "1564-698X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-theoretical-economics",
+   "name": "Theoretical Economics",
+   "issns": [
+    "1933-6837",
+    "1555-7561"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-theory-culture-and-society",
+   "name": "Theory Culture & Society",
+   "issns": [
+    "0263-2764",
+    "1460-3616"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-tourism-management",
+   "name": "Tourism Management",
+   "issns": [
+    "0261-5177",
+    "1879-3193"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S6814119"
+  },
+  {
+   "sourceId": "journal-transportation-research-part-a-policy-and-practi",
+   "name": "Transportation Research Part A Policy and Practice",
+   "issns": [
+    "0965-8564",
+    "1879-2375"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S159637997"
+  },
+  {
+   "sourceId": "journal-transportation-research-part-b-methodological",
+   "name": "Transportation Research Part B Methodological",
+   "issns": [
+    "0191-2615",
+    "1879-2367"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S96305778"
+  },
+  {
+   "sourceId": "journal-transportation-research-part-d-transport-and-env",
+   "name": "Transportation Research Part D Transport and Environment",
+   "issns": [
+    "1361-9209",
+    "1879-2340"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S45181156"
+  },
+  {
+   "sourceId": "journal-transportation-research-part-e-logistics-and-tra",
+   "name": "Transportation Research Part E Logistics and Transportation Review",
+   "issns": [
+    "1366-5545",
+    "1878-5794"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": "S173966628"
+  },
+  {
+   "sourceId": "journal-transportation-science",
+   "name": "Transportation Science",
+   "issns": [
+    "0041-1655",
+    "1526-5447"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-urban-studies",
+   "name": "Urban Studies",
+   "issns": [
+    "0042-0980",
+    "1360-063X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-west-european-politics",
+   "name": "West European Politics",
+   "issns": [
+    "0140-2382",
+    "1743-9655"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-work-and-stress",
+   "name": "Work & Stress",
+   "issns": [
+    "0267-8373",
+    "1464-5335"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-work-employment-and-society",
+   "name": "Work Employment and Society",
+   "issns": [
+    "0950-0170",
+    "1469-8722"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-work-and-occupations",
+   "name": "Work and Occupations",
+   "issns": [
+    "0730-8884",
+    "1552-8464"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  },
+  {
+   "sourceId": "journal-world-development",
+   "name": "World Development",
+   "issns": [
+    "0305-750X"
+   ],
+   "lists": [
+    "ABS"
+   ],
+   "crossref": true,
+   "openalexId": null
+  }
+ ]
+}

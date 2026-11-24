@@ -1,0 +1,7310 @@
+{
+  "$comment": "经管期刊，每本期刊一个信源（由 modules/literature/scripts/build-sources.ts 按 modules/literature/data/journals.json 生成，不要手改；改期刊范围请改那份数据再重新生成）。首次启动时导入（scripts/seed.ts），已存在的不会被覆盖。分级暂定：UTD24/FT50 为 T1，其余为 T1_5。",
+  "sources": [
+    {
+      "id": "journal-academy-of-management-journal",
+      "name": "Academy of Management Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-academy-of-management-review",
+      "name": "Academy of Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-administrative-science-quarterly",
+      "name": "Administrative Science Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-systems-research",
+      "name": "Information Systems Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-accounting-research",
+      "name": "Journal of Accounting Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-accounting-and-economics",
+      "name": "Journal of Accounting and Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-consumer-research",
+      "name": "Journal of Consumer Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-economics",
+      "name": "Journal of Financial Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-business-studies",
+      "name": "Journal of International Business Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-management-information-systems",
+      "name": "Journal of Management Information Systems",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-management-studies",
+      "name": "Journal of Management Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-marketing",
+      "name": "Journal of Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-marketing-research",
+      "name": "Journal of Marketing Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-operations-management",
+      "name": "Journal of Operations Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-mis-quarterly",
+      "name": "MIS Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-management-science",
+      "name": "Management Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-marketing-science",
+      "name": "Marketing Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-operations-research",
+      "name": "Operations Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organization-science",
+      "name": "Organization Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-production-and-operations-management",
+      "name": "Production and Operations Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-financial-studies",
+      "name": "Review of Financial Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-strategic-management-journal",
+      "name": "Strategic Management Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-accounting-review",
+      "name": "The Accounting Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-finance",
+      "name": "The Journal of Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "UTD24",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accounting-organizations-and-society",
+      "name": "Accounting Organizations and Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-review",
+      "name": "American Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-contemporary-accounting-research",
+      "name": "Contemporary Accounting Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-econometrica",
+      "name": "Econometrica",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-entrepreneurship-theory-and-practice",
+      "name": "Entrepreneurship Theory and Practice",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-harvard-business-review",
+      "name": "Harvard business review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-relations",
+      "name": "Human Relations",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-resource-management",
+      "name": "Human Resource Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-applied-psychology",
+      "name": "Journal of Applied Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-ethics",
+      "name": "Journal of Business Ethics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-venturing",
+      "name": "Journal of Business Venturing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-consumer-psychology",
+      "name": "Journal of Consumer Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-and-quantitative-analysis",
+      "name": "Journal of Financial and Quantitative Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-management",
+      "name": "Journal of Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-political-economy",
+      "name": "Journal of Political Economy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-academy-of-marketing-science",
+      "name": "Journal of the Academy of Marketing Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organization-studies",
+      "name": "Organization Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organizational-behavior-and-human-decision-proce",
+      "name": "Organizational Behavior and Human Decision Processes",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-research-policy",
+      "name": "Research Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-accounting-studies",
+      "name": "Review of Accounting Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-finance",
+      "name": "Review of Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-strategic-entrepreneurship-journal",
+      "name": "Strategic Entrepreneurship Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-quarterly-journal-of-economics",
+      "name": "The Quarterly Journal of Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-review-of-economic-studies",
+      "name": "The Review of Economic Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-acm-transactions-on-modeling-and-computer-simula",
+      "name": "ACM Transactions on Modeling and Computer Simulation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-abacus",
+      "name": "Abacus",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-academy-of-management-annals",
+      "name": "Academy of Management Annals",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-academy-of-management-discoveries",
+      "name": "Academy of Management Discoveries",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-academy-of-management-learning-and-education",
+      "name": "Academy of Management Learning and Education",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-academy-of-management-perspectives",
+      "name": "Academy of Management Perspectives",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accident-analysis-and-prevention",
+      "name": "Accident Analysis & Prevention",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accounting-auditing-and-accountability-journal",
+      "name": "Accounting Auditing & Accountability Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accounting-forum",
+      "name": "Accounting Forum",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accounting-horizons",
+      "name": "Accounting Horizons",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-accounting-and-business-research",
+      "name": "Accounting and Business Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-african-affairs",
+      "name": "African Affairs",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-journal-applied-economics",
+      "name": "American Economic Journal Applied Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-journal-economic-policy",
+      "name": "American Economic Journal Economic Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-journal-macroeconomics",
+      "name": "American Economic Journal Macroeconomics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-journal-microeconomics",
+      "name": "American Economic Journal Microeconomics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-economic-review-insights",
+      "name": "American Economic Review Insights",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-journal-of-agricultural-economics",
+      "name": "American Journal of Agricultural Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-journal-of-sociology",
+      "name": "American Journal of Sociology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-american-sociological-review",
+      "name": "American Sociological Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annals-of-operations-research",
+      "name": "Annals of Operations Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annals-of-tourism-research",
+      "name": "Annals of Tourism Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annual-review-of-economics",
+      "name": "Annual Review of Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annual-review-of-financial-economics",
+      "name": "Annual Review of Financial Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annual-review-of-psychology",
+      "name": "Annual Review of Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-annual-review-of-sociology",
+      "name": "Annual Review of Sociology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-antipode",
+      "name": "Antipode",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-applied-ergonomics",
+      "name": "Applied Ergonomics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-applied-psychology",
+      "name": "Applied Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-asia-pacific-journal-of-management",
+      "name": "Asia Pacific Journal of Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-auditing-a-journal-of-practice-and-theory",
+      "name": "Auditing A Journal of Practice & Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-behavioral-research-in-accounting",
+      "name": "Behavioral Research in Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-behavioral-and-brain-sciences",
+      "name": "Behavioral and Brain Sciences",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-biometrika",
+      "name": "Biometrika",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-educational-research-journal",
+      "name": "British Educational Research Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-journal-of-industrial-relations",
+      "name": "British Journal of Industrial Relations",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-journal-of-management",
+      "name": "British Journal of Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-journal-of-psychology",
+      "name": "British Journal of Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-journal-of-social-psychology",
+      "name": "British Journal of Social Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-journal-of-sociology",
+      "name": "British Journal of Sociology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-british-tax-review",
+      "name": "British tax review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-brookings-papers-on-economic-activity",
+      "name": "Brookings Papers on Economic Activity",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-business-and-society",
+      "name": "Business & Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-business-ethics-quarterly",
+      "name": "Business Ethics Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-business-history",
+      "name": "Business History",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-business-strategy-and-the-environment",
+      "name": "Business Strategy and the Environment",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-california-management-review",
+      "name": "California Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-cambridge-journal-of-economics",
+      "name": "Cambridge Journal of Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-cambridge-journal-of-regions-economy-and-society",
+      "name": "Cambridge Journal of Regions Economy and Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-canadian-journal-of-economics-revue-canadienne-d",
+      "name": "Canadian Journal of Economics/Revue canadienne d économique",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-cognition",
+      "name": "Cognition",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-cognitive-science",
+      "name": "Cognitive Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-computational-optimization-and-applications",
+      "name": "Computational Optimization and Applications",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-computational-statistics-and-data-analysis",
+      "name": "Computational Statistics & Data Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-computers-and-operations-research",
+      "name": "Computers & Operations Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-computers-in-industry",
+      "name": "Computers in Industry",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-corporate-governance-an-international-review",
+      "name": "Corporate Governance An International Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-critical-perspectives-on-accounting",
+      "name": "Critical Perspectives on Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-current-directions-in-psychological-science",
+      "name": "Current Directions in Psychological Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-decision-sciences",
+      "name": "Decision Sciences",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-decision-support-systems",
+      "name": "Decision Support Systems",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-development-and-change",
+      "name": "Development and Change",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ecological-economics",
+      "name": "Ecological Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-econometric-reviews",
+      "name": "Econometric Reviews",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-econometric-theory",
+      "name": "Econometric Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-econometrics-journal",
+      "name": "Econometrics Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-development-and-cultural-change",
+      "name": "Economic Development and Cultural Change",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-geography",
+      "name": "Economic Geography",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-inquiry",
+      "name": "Economic Inquiry",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-policy",
+      "name": "Economic Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-theory",
+      "name": "Economic Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economic-and-industrial-democracy",
+      "name": "Economic and Industrial Democracy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economica",
+      "name": "Economica",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economics-letters",
+      "name": "Economics Letters",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-economy-and-society",
+      "name": "Economy and Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-electoral-studies",
+      "name": "Electoral Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-energy-economics",
+      "name": "Energy Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-enterprise-and-society",
+      "name": "Enterprise & Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-entrepreneurship-and-regional-development",
+      "name": "Entrepreneurship and Regional Development",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environment-and-planning-a-economy-and-space",
+      "name": "Environment and Planning A Economy and Space",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environment-and-planning-c-government-and-policy",
+      "name": "Environment and Planning C Government and Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environment-and-planning-d-society-and-space",
+      "name": "Environment and Planning D Society and Space",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environmental-science-and-policy",
+      "name": "Environmental Science & Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environmental-science-and-technology",
+      "name": "Environmental Science & Technology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-environmental-and-resource-economics",
+      "name": "Environmental and Resource Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ergonomics",
+      "name": "Ergonomics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-accounting-review",
+      "name": "European Accounting Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-economic-review",
+      "name": "European Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-financial-management",
+      "name": "European Financial Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-finance",
+      "name": "European Journal of Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-industrial-relations",
+      "name": "European Journal of Industrial Relations",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-information-systems",
+      "name": "European Journal of Information Systems",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-marketing",
+      "name": "European Journal of Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-operational-research",
+      "name": "European Journal of Operational Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-social-psychology",
+      "name": "European Journal of Social Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-journal-of-work-and-organizational-psyc",
+      "name": "European Journal of Work and Organizational Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-management-review",
+      "name": "European Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-review-of-agricultural-economics",
+      "name": "European Review of Agricultural Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-review-of-economic-history",
+      "name": "European Review of Economic History",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-sociological-review",
+      "name": "European Sociological Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-sport-management-quarterly",
+      "name": "European Sport Management Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-european-urban-and-regional-studies",
+      "name": "European Urban and Regional Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-evolutionary-computation",
+      "name": "Evolutionary Computation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-experimental-economics",
+      "name": "Experimental Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-explorations-in-economic-history",
+      "name": "Explorations in Economic History",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-family-business-review",
+      "name": "Family Business Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-finance-and-stochastics",
+      "name": "Finance and Stochastics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-financial-accountability-and-management",
+      "name": "Financial Accountability and Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-financial-analysts-journal",
+      "name": "Financial Analysts Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-financial-management",
+      "name": "Financial Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-financial-markets-institutions-and-instruments",
+      "name": "Financial Markets Institutions and Instruments",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-financial-review",
+      "name": "Financial Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-food-policy",
+      "name": "Food Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-foundations-and-trends-in-accounting",
+      "name": "Foundations and Trends® in Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-fuzzy-optimization-and-decision-making",
+      "name": "Fuzzy Optimization and Decision Making",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-games-and-economic-behavior",
+      "name": "Games and Economic Behavior",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-gender-and-society",
+      "name": "Gender & Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-gender-work-and-organization",
+      "name": "Gender Work and Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-global-environmental-change",
+      "name": "Global Environmental Change",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-global-networks",
+      "name": "Global Networks",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-global-strategy-journal",
+      "name": "Global Strategy Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-governance",
+      "name": "Governance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-government-information-quarterly",
+      "name": "Government Information Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-group-and-organization-management",
+      "name": "Group & Organization Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-health-economics",
+      "name": "Health Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-health-services-research",
+      "name": "Health Services Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-factors-the-journal-of-the-human-factors-a",
+      "name": "Human Factors The Journal of the Human Factors and Ergonomics Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-performance",
+      "name": "Human Performance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-resource-management-journal",
+      "name": "Human Resource Management Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-human-resource-management-review",
+      "name": "Human Resource Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ieee-transactions-on-cybernetics",
+      "name": "IEEE Transactions on Cybernetics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ieee-transactions-on-engineering-management",
+      "name": "IEEE Transactions on Engineering Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ieee-transactions-on-evolutionary-computation",
+      "name": "IEEE Transactions on Evolutionary Computation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ieee-transactions-on-systems-man-and-cybernetics",
+      "name": "IEEE Transactions on Systems Man and Cybernetics Systems",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-iie-transactions",
+      "name": "IIE Transactions",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-ilr-review",
+      "name": "ILR Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-imf-economic-review",
+      "name": "IMF Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-informs-journal-on-computing",
+      "name": "INFORMS Journal on Computing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industrial-law-journal",
+      "name": "Industrial Law Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industrial-marketing-management",
+      "name": "Industrial Marketing Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industrial-relations-a-journal-of-economy-and-so",
+      "name": "Industrial Relations A Journal of Economy and Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industrial-relations-journal",
+      "name": "Industrial Relations Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industrial-and-corporate-change",
+      "name": "Industrial and Corporate Change",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-industry-and-innovation",
+      "name": "Industry and Innovation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-and-management",
+      "name": "Information & Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-systems-frontiers",
+      "name": "Information Systems Frontiers",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-systems-journal",
+      "name": "Information Systems Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-technology-and-people",
+      "name": "Information Technology and People",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-information-and-organization",
+      "name": "Information and Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-insurance-mathematics-and-economics",
+      "name": "Insurance Mathematics and Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-business-review",
+      "name": "International Business Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-economic-review",
+      "name": "International Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-contemporary-hospitalit",
+      "name": "International Journal of Contemporary Hospitality Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-electronic-commerce",
+      "name": "International Journal of Electronic Commerce",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-entrepreneurial-behavio",
+      "name": "International Journal of Entrepreneurial Behavior & Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-finance-and-economics",
+      "name": "International Journal of Finance & Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-forecasting",
+      "name": "International Journal of Forecasting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-hospitality-management",
+      "name": "International Journal of Hospitality Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-industrial-organization",
+      "name": "International Journal of Industrial Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-management-reviews",
+      "name": "International Journal of Management Reviews",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-operations-and-producti",
+      "name": "International Journal of Operations & Production Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-production-economics",
+      "name": "International Journal of Production Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-production-research",
+      "name": "International Journal of Production Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-rehabilitation-research",
+      "name": "International Journal of Rehabilitation Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-journal-of-research-in-marketing",
+      "name": "International Journal of Research in Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-marketing-review",
+      "name": "International Marketing Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-public-management-journal",
+      "name": "International Public Management Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-review-of-administrative-sciences",
+      "name": "International Review of Administrative Sciences",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-review-of-financial-analysis",
+      "name": "International Review of Financial Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-small-business-journal-researching",
+      "name": "International Small Business Journal Researching Entrepreneurship",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-international-statistical-review",
+      "name": "International Statistical Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-internet-research",
+      "name": "Internet Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-jcms-journal-of-common-market-studies",
+      "name": "JCMS Journal of Common Market Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-accounting-auditing-and-finance",
+      "name": "Journal of Accounting Auditing & Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-accounting-literature",
+      "name": "Journal of Accounting Literature",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-accounting-and-public-policy",
+      "name": "Journal of Accounting and Public Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-advertising",
+      "name": "Journal of Advertising",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-advertising-research",
+      "name": "Journal of Advertising Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-agricultural-economics",
+      "name": "Journal of Agricultural Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-applied-econometrics",
+      "name": "Journal of Applied Econometrics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-banking-and-finance",
+      "name": "Journal of Banking & Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-behavioral-decision-making",
+      "name": "Journal of Behavioral Decision Making",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-finance-and-amp-accounting",
+      "name": "Journal of Business Finance &amp Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-logistics",
+      "name": "Journal of Business Logistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-research",
+      "name": "Journal of Business Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-and-economic-statistics",
+      "name": "Journal of Business and Economic Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-business-and-psychology",
+      "name": "Journal of Business and Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-comparative-economics",
+      "name": "Journal of Comparative Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-computational-and-graphical-statistic",
+      "name": "Journal of Computational and Graphical Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-computer-mediated-communication",
+      "name": "Journal of Computer-Mediated Communication",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-conflict-resolution",
+      "name": "Journal of Conflict Resolution",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-corporate-finance",
+      "name": "Journal of Corporate Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-cross-cultural-psychology",
+      "name": "Journal of Cross-Cultural Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-development-economics",
+      "name": "Journal of Development Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-econometrics",
+      "name": "Journal of Econometrics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-behavior-and-organization",
+      "name": "Journal of Economic Behavior & Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-dynamics-and-control",
+      "name": "Journal of Economic Dynamics and Control",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-geography",
+      "name": "Journal of Economic Geography",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-growth",
+      "name": "Journal of Economic Growth",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-literature",
+      "name": "Journal of Economic Literature",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-economic-theory",
+      "name": "Journal of Economic Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-empirical-finance",
+      "name": "Journal of Empirical Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-environmental-economics-and-managemen",
+      "name": "Journal of Environmental Economics and Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-environmental-management",
+      "name": "Journal of Environmental Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-european-public-policy",
+      "name": "Journal of European Public Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-european-social-policy",
+      "name": "Journal of European Social Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-experimental-psychology-applied",
+      "name": "Journal of Experimental Psychology Applied",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-experimental-psychology-general",
+      "name": "Journal of Experimental Psychology General",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-experimental-psychology-learning-memo",
+      "name": "Journal of Experimental Psychology Learning Memory and Cognition",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-experimental-social-psychology",
+      "name": "Journal of Experimental Social Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-econometrics",
+      "name": "Journal of Financial Econometrics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-intermediation",
+      "name": "Journal of Financial Intermediation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-markets",
+      "name": "Journal of Financial Markets",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-services-research",
+      "name": "Journal of Financial Services Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-financial-stability",
+      "name": "Journal of Financial Stability",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-futures-markets",
+      "name": "Journal of Futures Markets",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-health-economics",
+      "name": "Journal of Health Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-heuristics",
+      "name": "Journal of Heuristics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-human-capital",
+      "name": "Journal of Human Capital",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-human-resources",
+      "name": "Journal of Human Resources",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-industrial-economics",
+      "name": "Journal of Industrial Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-information-technology",
+      "name": "Journal of Information Technology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-institutional-economics",
+      "name": "Journal of Institutional Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-interactive-marketing",
+      "name": "Journal of Interactive Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-accounting-auditing-and",
+      "name": "Journal of International Accounting Auditing and Taxation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-economics",
+      "name": "Journal of International Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-financial-markets-insti",
+      "name": "Journal of International Financial Markets Institutions and Money",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-management",
+      "name": "Journal of International Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-marketing",
+      "name": "Journal of International Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-international-money-and-finance",
+      "name": "Journal of International Money and Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-labor-economics",
+      "name": "Journal of Labor Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-management-inquiry",
+      "name": "Journal of Management Inquiry",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-managerial-psychology",
+      "name": "Journal of Managerial Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-marketing-and-public-policy",
+      "name": "Journal of Marketing & Public Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-mathematical-economics",
+      "name": "Journal of Mathematical Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-monetary-economics",
+      "name": "Journal of Monetary Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-multivariate-analysis",
+      "name": "Journal of Multivariate Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-occupational-health-psychology",
+      "name": "Journal of Occupational Health Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-occupational-and-organizational-psych",
+      "name": "Journal of Occupational and Organizational Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-optimization-theory-and-applications",
+      "name": "Journal of Optimization Theory and Applications",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-organizational-behavior",
+      "name": "Journal of Organizational Behavior",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-personality-and-social-psychology",
+      "name": "Journal of Personality and Social Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-policy-analysis-and-management",
+      "name": "Journal of Policy Analysis and Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-population-economics",
+      "name": "Journal of Population Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-product-innovation-management",
+      "name": "Journal of Product Innovation Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-public-administration-research-and-th",
+      "name": "Journal of Public Administration Research and Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-public-economics",
+      "name": "Journal of Public Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-purchasing-and-supply-management",
+      "name": "Journal of Purchasing and Supply Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-regional-science",
+      "name": "Journal of Regional Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-retailing",
+      "name": "Journal of Retailing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-risk-and-insurance",
+      "name": "Journal of Risk & Insurance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-risk-and-uncertainty",
+      "name": "Journal of Risk and Uncertainty",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-rural-studies",
+      "name": "Journal of Rural Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-school-psychology",
+      "name": "Journal of School Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-service-research",
+      "name": "Journal of Service Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-small-business-management",
+      "name": "Journal of Small Business Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-social-policy",
+      "name": "Journal of Social Policy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-supply-chain-management",
+      "name": "Journal of Supply Chain Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-sustainable-tourism",
+      "name": "Journal of Sustainable Tourism",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-time-series-analysis",
+      "name": "Journal of Time Series Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-travel-research",
+      "name": "Journal of Travel Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-urban-economics",
+      "name": "Journal of Urban Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-vocational-behavior",
+      "name": "Journal of Vocational Behavior",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-world-business",
+      "name": "Journal of World Business",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-commodity-markets",
+      "name": "Journal of commodity markets",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-money-credit-and-banking",
+      "name": "Journal of money credit and banking",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-american-statistical-association",
+      "name": "Journal of the American Statistical Association",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-american-taxation-association",
+      "name": "Journal of the American Taxation Association",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-association-for-information-scien",
+      "name": "Journal of the Association for Information Science and Technology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-association-of-environmental-and",
+      "name": "Journal of the Association of Environmental and Resource Economists",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-european-economic-association",
+      "name": "Journal of the European Economic Association",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-operational-research-society",
+      "name": "Journal of the Operational Research Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-journal-of-the-royal-statistical-society-series",
+      "name": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-of-the-royal-statistical-society-series-2",
+      "name": "Journal of the Royal Statistical Society Series B Statistical Methodology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-of-the-royal-statistical-society-series-3",
+      "name": "Journal of the Royal Statistical Society Series C (Applied Statistics)",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-judgment-and-decision-making",
+      "name": "Judgment and Decision Making",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-kyklos",
+      "name": "Kyklos",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-labour-economics",
+      "name": "Labour Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-land-economics",
+      "name": "Land Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-long-range-planning",
+      "name": "Long Range Planning",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-mit-sloan-management-review",
+      "name": "MIT Sloan Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-management-accounting-research",
+      "name": "Management Accounting Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-management-international-review",
+      "name": "Management International Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-management-learning",
+      "name": "Management Learning",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-management-and-organization-review",
+      "name": "Management and Organization Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-manufacturing-and-service-operations-management",
+      "name": "Manufacturing & Service Operations Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS",
+        "FT50"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-marketing-letters",
+      "name": "Marketing Letters",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-marketing-theory",
+      "name": "Marketing Theory",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-mathematical-finance",
+      "name": "Mathematical Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-mathematical-programming",
+      "name": "Mathematical Programming",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-mathematics-of-operations-research",
+      "name": "Mathematics of Operations Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-milbank-quarterly",
+      "name": "Milbank Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-naval-research-logistics-nrl",
+      "name": "Naval Research Logistics (NRL)",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-new-political-economy",
+      "name": "New Political Economy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-new-technology-work-and-employment",
+      "name": "New Technology Work and Employment",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-nonprofit-and-voluntary-sector-quarterly",
+      "name": "Nonprofit and Voluntary Sector Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-or-spectrum",
+      "name": "OR Spectrum",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-occupational-and-environmental-medicine",
+      "name": "Occupational and Environmental Medicine",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-omega",
+      "name": "Omega",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organization",
+      "name": "Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organization-and-environment",
+      "name": "Organization & Environment",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organizational-dynamics",
+      "name": "Organizational Dynamics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-organizational-research-methods",
+      "name": "Organizational Research Methods",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-oxford-bulletin-of-economics-and-statistics",
+      "name": "Oxford Bulletin of Economics and Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-oxford-economic-papers",
+      "name": "Oxford Economic Papers",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-papers-of-the-regional-science-association",
+      "name": "Papers of the Regional Science Association",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-personality-and-individual-differences",
+      "name": "Personality and Individual Differences",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-personality-and-social-psychology-bulletin",
+      "name": "Personality and Social Psychology Bulletin",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-personnel-psychology",
+      "name": "Personnel Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-policy-and-politics",
+      "name": "Policy & Politics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-politics-and-society",
+      "name": "Politics & Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-production-planning-and-control",
+      "name": "Production Planning & Control",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-progress-in-human-geography",
+      "name": "Progress in Human Geography",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychological-bulletin",
+      "name": "Psychological Bulletin",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychological-research",
+      "name": "Psychological Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychological-review",
+      "name": "Psychological Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychological-science",
+      "name": "Psychological Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychology-and-marketing",
+      "name": "Psychology and Marketing",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychology-of-women-quarterly",
+      "name": "Psychology of Women Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-psychometrika",
+      "name": "Psychometrika",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-public-administration",
+      "name": "Public Administration",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-public-administration-review",
+      "name": "Public Administration Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-public-choice",
+      "name": "Public Choice",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-public-management-review",
+      "name": "Public Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-public-opinion-quarterly",
+      "name": "Public Opinion Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-quantitative-economics",
+      "name": "Quantitative Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-quantitative-finance",
+      "name": "Quantitative Finance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-quantitative-marketing-and-economics",
+      "name": "Quantitative Marketing and Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-quarterly-journal-of-experimental-psychology",
+      "name": "Quarterly Journal of Experimental Psychology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-quarterly-journal-of-political-science",
+      "name": "Quarterly Journal of Political Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-r-and-d-management",
+      "name": "R and D Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-real-estate-economics",
+      "name": "Real Estate Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-regional-science-and-urban-economics",
+      "name": "Regional Science and Urban Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-regional-studies",
+      "name": "Regional Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-regulation-and-governance",
+      "name": "Regulation & Governance",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-reliability-engineering-and-system-safety",
+      "name": "Reliability Engineering & System Safety",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-research-in-organizational-behavior",
+      "name": "Research in Organizational Behavior",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-research-in-the-sociology-of-organizations",
+      "name": "Research in the sociology of organizations",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-economic-dynamics",
+      "name": "Review of Economic Dynamics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-income-and-wealth",
+      "name": "Review of Income and Wealth",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-international-political-economy",
+      "name": "Review of International Political Economy",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-review-of-quantitative-finance-and-accounting",
+      "name": "Review of Quantitative Finance and Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-risk-analysis",
+      "name": "Risk Analysis",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-siam-journal-on-optimization",
+      "name": "SIAM Journal on Optimization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-scandinavian-journal-of-economics",
+      "name": "Scandinavian Journal of Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-scandinavian-journal-of-statistics",
+      "name": "Scandinavian Journal of Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-scandinavian-journal-of-work-environment-and-hea",
+      "name": "Scandinavian Journal of Work Environment & Health",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-sloan-management-review",
+      "name": "Sloan Management Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "FT50"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-small-business-economics",
+      "name": "Small Business Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-social-choice-and-welfare",
+      "name": "Social Choice and Welfare",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-social-forces",
+      "name": "Social Forces",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-social-psychological-and-personality-science",
+      "name": "Social Psychological and Personality Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-social-science-and-medicine",
+      "name": "Social Science & Medicine",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-socio-economic-review",
+      "name": "Socio-Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-sociological-methodology",
+      "name": "Sociological Methodology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-sociology",
+      "name": "Sociology",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-sociology-of-health-and-illness",
+      "name": "Sociology of Health & Illness",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-strategic-organization",
+      "name": "Strategic Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-studies-in-higher-education",
+      "name": "Studies in Higher Education",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-supply-chain-management-an-international-journal",
+      "name": "Supply Chain Management An International Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-technological-forecasting-and-social-change",
+      "name": "Technological Forecasting and Social Change",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-technovation",
+      "name": "Technovation",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-american-review-of-public-administration",
+      "name": "The American Review of Public Administration",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-annals-of-statistics",
+      "name": "The Annals of Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-british-accounting-review",
+      "name": "The British Accounting Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-business-history-review",
+      "name": "The Business History Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-economic-history-review",
+      "name": "The Economic History Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-economic-journal",
+      "name": "The Economic Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-energy-journal",
+      "name": "The Energy Journal",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-information-society",
+      "name": "The Information Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-international-journal-of-accounting",
+      "name": "The International Journal of Accounting",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-international-journal-of-human-resource-mana",
+      "name": "The International Journal of Human Resource Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-development-studies",
+      "name": "The Journal of Development Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-economic-history",
+      "name": "The Journal of Economic History",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-economic-perspectives",
+      "name": "The Journal of Economic Perspectives",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-financial-research",
+      "name": "The Journal of Financial Research",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-law-economics-and-organization",
+      "name": "The Journal of Law Economics and Organization",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-law-and-economics",
+      "name": "The Journal of Law and Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-legal-studies",
+      "name": "The Journal of Legal Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-portfolio-management",
+      "name": "The Journal of Portfolio Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-real-estate-finance-and-economics",
+      "name": "The Journal of Real Estate Finance and Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-strategic-information-systems",
+      "name": "The Journal of Strategic Information Systems",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-journal-of-technology-transfer",
+      "name": "The Journal of Technology Transfer",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-leadership-quarterly",
+      "name": "The Leadership Quarterly",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-rand-journal-of-economics",
+      "name": "The RAND Journal of Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-review-of-asset-pricing-studies",
+      "name": "The Review of Asset Pricing Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-review-of-corporate-finance-studies",
+      "name": "The Review of Corporate Finance Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-review-of-economics-and-statistics",
+      "name": "The Review of Economics and Statistics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-sociological-review",
+      "name": "The Sociological Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-the-world-bank-economic-review",
+      "name": "The World Bank Economic Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-theoretical-economics",
+      "name": "Theoretical Economics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-theory-culture-and-society",
+      "name": "Theory Culture & Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-tourism-management",
+      "name": "Tourism Management",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-transportation-research-part-a-policy-and-practi",
+      "name": "Transportation Research Part A Policy and Practice",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-transportation-research-part-b-methodological",
+      "name": "Transportation Research Part B Methodological",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-transportation-research-part-d-transport-and-env",
+      "name": "Transportation Research Part D Transport and Environment",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-transportation-research-part-e-logistics-and-tra",
+      "name": "Transportation Research Part E Logistics and Transportation Review",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-transportation-science",
+      "name": "Transportation Science",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-urban-studies",
+      "name": "Urban Studies",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-west-european-politics",
+      "name": "West European Politics",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-work-and-stress",
+      "name": "Work & Stress",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-work-employment-and-society",
+      "name": "Work Employment and Society",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-work-and-occupations",
+      "name": "Work and Occupations",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    },
+    {
+      "id": "journal-world-development",
+      "name": "World Development",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "participation_mode": "editorial",
+      "interval_minutes": 1440,
+      "tags": [
+        "期刊",
+        "ABS"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "enabled": true
+    }
+  ]
+}

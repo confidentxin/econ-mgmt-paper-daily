@@ -1,0 +1,219 @@
+{
+  "groups": [
+    {
+      "key": "company",
+      "name": "论文类型",
+      "blurb": "按研究怎么做来分：实证、实验、理论、方法与数据、综述"
+    },
+    {
+      "key": "field",
+      "name": "研究话题",
+      "blurb": "跨领域的研究话题：治理、创新、劳动、消费、金融、政策……"
+    },
+    {
+      "key": "genre",
+      "name": "方法与趋势",
+      "blurb": "因果推断、实验方法、机器学习、文本与大数据、数字化转型"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "empirical",
+      "name": "实证研究",
+      "group": "company",
+      "tags": [
+        "实证研究"
+      ],
+      "definition": "用观测数据和回归、面板、工具变量、断点回归、结构估计等方法回答经管问题的论文。"
+    },
+    {
+      "slug": "experiment",
+      "name": "实验研究",
+      "group": "company",
+      "tags": [
+        "实验研究"
+      ],
+      "definition": "实验室实验、田野实验和随机对照试验。"
+    },
+    {
+      "slug": "theory",
+      "name": "理论研究",
+      "group": "company",
+      "tags": [
+        "理论研究"
+      ],
+      "definition": "理论模型、博弈论、机制设计和纯理论推演。"
+    },
+    {
+      "slug": "method",
+      "name": "方法与数据",
+      "group": "company",
+      "tags": [
+        "方法与数据"
+      ],
+      "definition": "新的计量或统计方法、测量工具、数据集和研究设计。"
+    },
+    {
+      "slug": "review",
+      "name": "综述与评论",
+      "group": "company",
+      "tags": [
+        "综述与评论"
+      ],
+      "definition": "文献综述、元分析、评论与研究议程。"
+    },
+    {
+      "slug": "governance",
+      "name": "公司治理",
+      "group": "field",
+      "tags": [
+        "公司治理"
+      ],
+      "definition": "股权结构、董事会、控股股东、激励与公司治理机制。"
+    },
+    {
+      "slug": "innovation",
+      "name": "创新创业",
+      "group": "field",
+      "tags": [
+        "创新创业"
+      ],
+      "definition": "创新绩效、专利、创业企业、风险投资与企业家精神。"
+    },
+    {
+      "slug": "labor",
+      "name": "劳动与人力资本",
+      "group": "field",
+      "tags": [
+        "劳动与人力资本"
+      ],
+      "definition": "就业、工资、教育回报、劳动力流动与员工行为。"
+    },
+    {
+      "slug": "consumer-behavior",
+      "name": "消费与行为",
+      "group": "field",
+      "tags": [
+        "消费与行为"
+      ],
+      "definition": "消费者决策、行为偏差和家庭决策。"
+    },
+    {
+      "slug": "financial-markets",
+      "name": "金融市场",
+      "group": "field",
+      "tags": [
+        "金融市场"
+      ],
+      "definition": "资产定价、股票与债券市场、投资者行为与市场微观结构。"
+    },
+    {
+      "slug": "corporate-finance",
+      "name": "公司金融",
+      "group": "field",
+      "tags": [
+        "公司金融"
+      ],
+      "definition": "融资、资本结构、投资、股利、并购与公司财务决策。"
+    },
+    {
+      "slug": "operations",
+      "name": "供应链与运营",
+      "group": "field",
+      "tags": [
+        "供应链与运营"
+      ],
+      "definition": "采购、库存、产能、物流、质量管理与服务运营。"
+    },
+    {
+      "slug": "public-policy",
+      "name": "公共政策",
+      "group": "field",
+      "tags": [
+        "公共政策"
+      ],
+      "definition": "财政、税收、监管、产业政策及其评估。"
+    },
+    {
+      "slug": "health",
+      "name": "健康与医疗",
+      "group": "field",
+      "tags": [
+        "健康与医疗"
+      ],
+      "definition": "卫生经济学、医疗决策、医院与医保管理。"
+    },
+    {
+      "slug": "environment",
+      "name": "环境与可持续",
+      "group": "field",
+      "tags": [
+        "环境与可持续"
+      ],
+      "definition": "环境经济学、能源转型、ESG 与企业社会责任。"
+    },
+    {
+      "slug": "international",
+      "name": "国际与跨国",
+      "group": "field",
+      "tags": [
+        "国际与跨国"
+      ],
+      "definition": "国际贸易、跨国经营、汇率与全球化。"
+    },
+    {
+      "slug": "platform-economy",
+      "name": "平台经济",
+      "group": "field",
+      "tags": [
+        "平台经济"
+      ],
+      "definition": "电商平台、双边市场、共享经济与数字经济。"
+    },
+    {
+      "slug": "causal-inference",
+      "name": "因果推断",
+      "group": "genre",
+      "tags": [
+        "因果推断"
+      ],
+      "definition": "工具变量、双重差分、断点回归、合成控制等识别方法及其应用。"
+    },
+    {
+      "slug": "experimental-method",
+      "name": "实验方法",
+      "group": "genre",
+      "tags": [
+        "实验方法"
+      ],
+      "definition": "随机化、自然实验与实验设计。"
+    },
+    {
+      "slug": "machine-learning",
+      "name": "机器学习",
+      "group": "genre",
+      "tags": [
+        "机器学习"
+      ],
+      "definition": "机器学习方法在经管研究中的应用：预测、因果森林、推荐等。"
+    },
+    {
+      "slug": "text-and-big-data",
+      "name": "文本与大数据",
+      "group": "genre",
+      "tags": [
+        "文本与大数据"
+      ],
+      "definition": "非结构化数据、文本挖掘、网络数据与新的测量。"
+    },
+    {
+      "slug": "digital-transformation",
+      "name": "数字化转型",
+      "group": "genre",
+      "tags": [
+        "数字化转型"
+      ],
+      "definition": "企业数字化、信息技术投入及其组织与绩效后果。"
+    }
+  ]
+}
