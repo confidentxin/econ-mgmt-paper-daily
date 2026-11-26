@@ -7,7 +7,7 @@ import { queueProcessing } from "@aihot/backend/jobs/content";
 import { beijingDate } from "@aihot/contracts/time";
 import { fetchDeposits, issnBatches, toPaper } from "./crossref.ts";
 import { collectionWindow } from "./window.ts";
-import { crossrefIssns, journalByIssn, journals } from "./registry.ts";
+import { crossrefIssns, journalByIssn, journals, paperBodyStatus } from "./registry.ts";
 
 export const MODULE = "literature";
 const CURSOR = "crossref";
@@ -23,8 +23,11 @@ export async function collectCrossref(now = new Date()): Promise<Record<string, 
   const started = Date.now();
   const today = beijingDate(now);
   const range = collectionWindow(await readCursor(), today);
-  const stats = { requests: 0, found: 0, created: 0, revised: 0, queued: 0, withAbstract: 0, staleOnDiscovery: 0, otherJournal: 0, notAPaper: 0 };
-  for (const issns of issnBatches(crossrefIssns())) {
+  const disabled = new Set((await sql<{ id: string }[]>`SELECT id FROM sources WHERE enabled = false`).map((r) => r.id));
+  const activeJournals = journals().filter((j) => j.crossref && !disabled.has(j.sourceId));
+  const activeIssns = crossrefIssns(disabled);
+  const stats = { requests: 0, found: 0, created: 0, revised: 0, queued: 0, withAbstract: 0, staleOnDiscovery: 0, otherJournal: 0, pausedJournal: 0, notAPaper: 0 };
+  for (const issns of issnBatches(activeIssns)) {
     const { works, requests } = await fetchDeposits(issns, range.from, range.until);
     stats.requests += requests;
     stats.found += works.length;
@@ -32,6 +35,10 @@ export async function collectCrossref(now = new Date()): Promise<Record<string, 
       const journal = journalByIssn(work.ISSN ?? []);
       if (!journal) {
         stats.otherJournal += 1;
+        continue;
+      }
+      if (disabled.has(journal.sourceId)) {
+        stats.pausedJournal += 1;
         continue;
       }
       const paper = toPaper(work, now);
@@ -50,12 +57,17 @@ export async function collectCrossref(now = new Date()): Promise<Record<string, 
         publishedAt: paper.publishedAt,
         publicationTime: paper.publicationTime,
         excerpt: paper.abstract,
+        bodyStatus: paperBodyStatus(paper.abstract),
         raw: { doi: paper.doi, journal: journal.name, lists: journal.lists, dateBasis: paper.dateBasis, depositedAt: paper.depositedAt?.toISOString() ?? null },
         via: MODULE,
       });
+      // upsertMaterial keeps body_status on an excerpt-only revision; settle it so queueProcessing routes straight to analysis.
+      const settledPending = paper.abstract && !res.created
+        ? (await sql`UPDATE articles SET body_status = 'none' WHERE id = ${res.articleId} AND body_status = 'pending' RETURNING id`).length > 0
+        : false;
       if (res.created) stats.created += 1;
       if (res.revised) stats.revised += 1;
-      if (res.created || res.revised || res.processingNeeded) {
+      if (res.created || res.revised || res.processingNeeded || settledPending) {
         await queueProcessing(res.articleId);
         stats.queued += 1;
       }
@@ -64,6 +76,8 @@ export async function collectCrossref(now = new Date()): Promise<Record<string, 
   // Advanced only once every batch was read: a failed run leaves the cursor, and the next one reads the window again.
   await sql`INSERT INTO literature_cursors (name, created_through) VALUES (${CURSOR}, ${range.until})
     ON CONFLICT (name) DO UPDATE SET created_through = EXCLUDED.created_through, runs = literature_cursors.runs + 1, updated_at = now()`;
-  await sql`UPDATE sources SET last_fetch_at = now(), last_ok_at = now() WHERE id = ANY(${sql.array(journals().filter((j) => j.crossref).map((j) => j.sourceId))}::text[])`;
+  if (activeJournals.length) {
+    await sql`UPDATE sources SET last_fetch_at = now(), last_ok_at = now() WHERE id = ANY(${sql.array(activeJournals.map((j) => j.sourceId))}::text[])`;
+  }
   return { ...stats, from: range.from, until: range.until, ms: Date.now() - started };
 }

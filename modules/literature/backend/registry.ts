@@ -66,7 +66,10 @@ export function journalByIssn(issns: readonly (string | undefined)[]): Journal |
   return journals().find((j) => j.issns.some((issn) => wanted.has(issn.toUpperCase().replace(/[\s-]/gu, "")))) ?? null;
 }
 
-/** The journals read through Crossref, their ISSNs. */
-export function crossrefIssns(): string[] {
-  return [...new Set(journals().filter((j) => j.crossref).flatMap((j) => j.issns).map((issn) => issn.toUpperCase()))];
+/** The journals read through Crossref (excluding any paused in admin), their ISSNs. */
+export function crossrefIssns(disabled: ReadonlySet<string> = new Set()): string[] {
+  return [...new Set(journals().filter((j) => j.crossref && !disabled.has(j.sourceId)).flatMap((j) => j.issns).map((issn) => issn.toUpperCase()))];
 }
+
+/** A paper with an abstract already has what analysis reads; only title-only records wait for page extraction. */
+export const paperBodyStatus = (abstract: string | null | undefined): "none" | "pending" => (abstract ? "none" : "pending");
