@@ -2,7 +2,7 @@
 // the window a run reads. No database: a query here fails on purpose.
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { abstractText, authorLine, depositsQuery, hasMoreDeposits, isFrontMatter, issnBatches, publicationDay, toPaper, type CrossrefWork } from "../backend/crossref.ts";
+import { abstractText, authorLine, crossrefUserAgent, depositsQuery, hasMoreDeposits, isFrontMatter, issnBatches, publicationDay, toPaper, type CrossrefWork } from "../backend/crossref.ts";
 import { collectionWindow, shiftDay } from "../backend/window.ts";
 
 const NOW = new Date("2026-11-24T04:00:00Z");
@@ -33,6 +33,26 @@ test("publication dates share ingestion's one-hour future tolerance with the dep
   const outside = publicationDay(work({ ...fields, created: { "date-time": "2026-11-20T22:59:59Z" } }))!;
   assert.equal(outside.dateBasis, "created", "more than one hour ahead falls back to the deposit day");
   assert.equal(outside.publicationTime, "2026-11-20");
+});
+
+test("partial dates (month-only or year-only) and publisher deposit lags past 48h fall back to deposit day", () => {
+  const monthOnly = publicationDay(work({ published: { "date-parts": [[2026, 11]] } }))!;
+  assert.equal(monthOnly.dateBasis, "created");
+  assert.equal(monthOnly.publicationTime, "2026-11-20");
+
+  const yearOnly = publicationDay(work({ "published-online": { "date-parts": [[2026]] } }))!;
+  assert.equal(yearOnly.dateBasis, "created");
+  assert.equal(yearOnly.publicationTime, "2026-11-20");
+
+  const lagged = publicationDay(work({ "published-online": { "date-parts": [[2026, 11, 10]] } }))!;
+  assert.equal(lagged.dateBasis, "created");
+  assert.equal(lagged.publicationTime, "2026-11-20");
+  assert.equal(lagged.depositLagDays, 0);
+});
+
+test("Crossref User-Agent includes mailto for the polite pool when configured", () => {
+  assert.match(crossrefUserAgent("team@example.edu"), /mailto:team@example\.edu\)$/);
+  assert.doesNotMatch(crossrefUserAgent(""), /mailto:/);
 });
 
 test("a record without any date is not stored", () => {
