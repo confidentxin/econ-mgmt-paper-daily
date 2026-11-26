@@ -8,17 +8,18 @@ export const SELECTION = {
   /**
    * 信源分级 → 入选门槛（平均分）。评分提示词不知道论文发在哪本期刊，期刊等级只在这里起作用：
    * 期刊越靠前，门槛越低。本站每个信源是一本期刊（industry/sources.json）：
-   *   T1 UTD24 与 FT50 期刊 · T1_5 ABS 3/4 星与 FMS 中文期刊 · T2 其他来源
+   *   T1 UTD24、FT50 与 ABS 4* 顶刊 · T1_5 ABS 4 星/3 星与 FMS 中文期刊 · T2 其他来源
    * 没有列出的分级不参与精选评分（只进“全部动态”）。
    * 这组门槛还没有用站长标注的样本校准过，只是起点，见 docs/selection.md。
    */
-  thresholds: { T1: 60, T1_5: 65, T2: 76 } as Record<string, number>,
+  thresholds: { T1: 60, T1_5: 63, T2: 76 } as Record<string, number>,
   /**
-   * 信源类别 → 门槛下限。分级只说明期刊的等级；有些收录期刊离经管核心较远（环境科学、工程、人体工效学等），
-   * 读者要看的只是其中与经管真正相关、质量很高的论文，就在后台“信源”里给它一个类别，门槛抬到不低于这里的数。
-   * 只抬不降：分级门槛本来就更高的不受影响。没有类别的信源只按分级。
+   * 信源类别 → 门槛下限。只抬不降：分级门槛本来就更高的不受影响。没有类别的信源只按分级。
+   *   abs3: 核心经管 ABS 三星期刊（相对 ABS 四星期刊的 63 分适度抬高至 66 分，同时保留 T1_5 的推送资格）
+   *   adjacent: 环境工程、安全科学、临床医学、纯统计/基础心理等相邻学科期刊，只收真正与经管高相关的高分论文（72 分）
    */
   classes: {
+    abs3: { label: "ABS 三星期刊", threshold: 66 },
     adjacent: { label: "相邻学科期刊", threshold: 72 },
   } as Record<string, { label: string; threshold: number }>,
   /**
