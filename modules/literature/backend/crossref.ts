@@ -9,7 +9,14 @@ export const ISSNS_PER_REQUEST = 25;
 const PAGE_SIZE = 1000;
 const MAX_PAGES = 6;
 const RETRIES = 4;
-const USER_AGENT = "econ-literature-site/0.1 (daily literature digest; https://github.com/confidentxin/econ-mgmt-paper-daily)";
+/** Beyond 48 h behind the deposit, a publisher's nominal date would archive a newly registered paper as stale history. */
+const MAX_DEPOSIT_LAG_MS = 48 * 3600_000;
+const BASE_USER_AGENT = "econ-literature-site/0.1 (daily literature digest; https://github.com/confidentxin/econ-mgmt-paper-daily";
+
+export function crossrefUserAgent(mailto = process.env.CROSSREF_MAILTO): string {
+  const email = mailto?.trim();
+  return email ? `${BASE_USER_AGENT}; mailto:${email})` : `${BASE_USER_AGENT})`;
+}
 
 export interface CrossrefDate {
   "date-parts"?: number[][];
@@ -61,7 +68,7 @@ async function getJson(url: string): Promise<{ message?: { items?: CrossrefWork[
     let response: Awaited<ReturnType<typeof guardedFetch>>;
     try {
       response = await guardedFetch(url, {
-        headers: { "User-Agent": USER_AGENT, Accept: "application/json" },
+        headers: { "User-Agent": crossrefUserAgent(), Accept: "application/json" },
         timeoutMs: 60_000,
         maxBytes: 32 * 1024 * 1024,
       });
@@ -112,32 +119,33 @@ export async function fetchDeposits(issns: readonly string[], from: string, unti
   return { works, requests };
 }
 
-function dateParts(date: CrossrefDate | undefined): Date | null {
+/** Day-exact Crossref date ([YYYY, MM, DD]); month-only or year-only issue dates carry no publication day. */
+function exactDayParts(date: CrossrefDate | undefined): Date | null {
   const parts = date?.["date-parts"]?.[0];
-  if (!parts?.length || !parts[0]) return null;
-  return new Date(Date.UTC(parts[0], (parts[1] ?? 1) - 1, parts[2] ?? 1));
+  if (!parts || parts.length < 3 || !parts[0] || !parts[1] || !parts[2]) return null;
+  return new Date(Date.UTC(parts[0], parts[1] - 1, parts[2]));
 }
 
 function depositTime(work: CrossrefWork): Date | null {
   const exact = work.created?.["date-time"] ? new Date(work.created["date-time"]) : null;
   if (exact && Number.isFinite(exact.getTime())) return exact;
-  return dateParts(work.created);
+  return exactDayParts(work.created);
 }
 
 /**
  * When the paper was published, to the day Crossref knows. The online date first, else the earliest of its
- * dates, else the deposit. A date that lies ahead of the deposit is an issue dated in the future (print
- * issues are deposited before their cover date), and the site would refuse it as not published yet: the
- * deposit time stands in for it.
+ * dates, else the deposit. A date without a day ([YYYY, MM]), ahead of the deposit (a future issue cover date),
+ * or more than 48 h behind the deposit (a back-dated issue or delayed batch deposit) gives way to the deposit
+ * time so newly registered papers are not archived as stale history before reaching the daily edition.
  */
 export function publicationDay(work: CrossrefWork): Pick<PaperDraft, "publishedAt" | "publicationTime" | "dateBasis" | "depositedAt" | "depositLagDays"> | null {
   const depositedAt = depositTime(work);
   if (!depositedAt) return null;
   const candidates: Array<[CrossrefDate | undefined, PaperDraft["dateBasis"]]> = [[work["published-online"], "online"], [work.published, "published"]];
   for (const [date, basis] of candidates) {
-    const day = dateParts(date);
-    if (day && day.getTime() <= depositedAt.getTime() + 3600_000) {
-      return { publishedAt: day, publicationTime: day.toISOString().slice(0, 10), dateBasis: basis, depositedAt, depositLagDays: Math.floor((depositedAt.getTime() - day.getTime()) / 86_400_000) };
+    const day = exactDayParts(date);
+    if (day && day.getTime() <= depositedAt.getTime() + 3600_000 && depositedAt.getTime() - day.getTime() <= MAX_DEPOSIT_LAG_MS) {
+      return { publishedAt: day, publicationTime: day.toISOString().slice(0, 10), dateBasis: basis, depositedAt, depositLagDays: Math.max(0, Math.floor((depositedAt.getTime() - day.getTime()) / 86_400_000)) };
     }
   }
   const day = new Date(Date.UTC(depositedAt.getUTCFullYear(), depositedAt.getUTCMonth(), depositedAt.getUTCDate()));
